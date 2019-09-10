@@ -1,0 +1,73 @@
+form{
+    input[type='checkbox']{
+        position: relative;
+        &:checked{
+            &::after{
+                opacity: 1;
+            }
+        }
+        &::before{
+            content: ' ';
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            position: absolute;
+            background: #333333;
+        }
+        &::after{
+            content: '\f128';
+            font-weight: 900;
+            font-family: "Font Awesome 5 Free";
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            position: absolute;
+            color: white;
+            transform: scale(0.5);
+            opacity: 0;
+            transition: all 0.4s ease-out;
+        }
+    }
+    input[type='radio']{
+        position: relative;
+        // &:{
+        //     &::after{
+        //         opacity: 1;
+        //     }
+        // }
+        &:checked{
+            &::before{
+                opacity: 1;
+            }
+        }
+        &::before{
+            content: ' ';
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            position: absolute;
+            background: black;
+            border-radius: 50%;
+            transform: scale(0.5);
+            opacity: 0;
+            transition: all 0.4s ease-out;
+        }
+        &::after{
+            // content: '\f26e';
+            // font-weight: 900;
+            // font-family: "Font Awesome 5 Free";
+            content: ' ';
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            position: absolute;
+            border-radius: 50%;
+            background: red;
+        }
+
+    }
+}

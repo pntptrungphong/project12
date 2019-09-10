@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'B612 Mono', monospace;
+    //bất kì khi nào có padding thì sẽ thụt vô trong
+    box-sizing:  border-box;
+}
+//đặt biến để tối uu code
+$mg:15px;
+p.not{
+    color: brown;
+    margin-top: $mg;
+    a{
+        color: crimson;
+    }
+}
+.form-wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background: #3498db;
+    input{
+        //outline bỏ màu xanh khi click vào input
+        outline: none;
+        border: none;
+        &:focus{
+            border-bottom:1px solid palevioletred;
+        }
+    }
+    button{
+        border: none;
+        background: none;
+        outline: none;
+    }
+    form{
+        background: white;
+        padding: 30px;
+        width: 332px;
+        display: flex;
+        border-radius: 4px;
+        //mặc định là cùng hàng ngang, đổi lại dùng flex-direction:column
+        flex-direction: column;
+        input{
+            border: 0.5px solid rgb(190, 187, 187);
+            border-radius: 3px;
+            margin: 15px 16px;
+            padding: 14px;
+            //rgba(mã màu,độ sáng)
+            background: rgba(#333333,0.2);
+        }
+        button{
+            margin: 15px 16px;
+            padding: 14px;
+            background-color: #3498db;
+            border-radius: 5px;
+            font-size: 20px;
+            color: white;
+            font-weight: 800;
+            transition: 1s;
+            //khi click vào con chuột có hình bàn tay
+            cursor: pointer;
+            &:hover{
+                background:rgba(red,0.6);   
+            }
+        }
+        h1{
+            margin-bottom: $mg;
+        }
+        a{
+            color:rgba(black,0.5);
+            margin:$mg 0;
+            
+       
+        }
+    }
+}

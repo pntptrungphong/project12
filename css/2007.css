@@ -1,0 +1,45 @@
+.modal {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(51, 51, 51, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .modal .modal-content {
+    background: white;
+    width: 500px; }
+    .modal .modal-content .modal-content-top {
+      display: flex;
+      flex-direction: column;
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 0 5px -3px  #333333;
+      color: red; }
+      .modal .modal-content .modal-content-top span {
+        margin-top: 20px; }
+    .modal .modal-content-bottom {
+      padding: 30px; }
+      .modal .modal-content-bottom .buttons {
+        display: flex; }
+        .modal .modal-content-bottom .buttons button {
+          box-shadow: 0 0 5px -2px #333333;
+          padding: 20px;
+          border-radius: 8px; }
+          .modal .modal-content-bottom .buttons button.yes {
+            color: white;
+            background: red;
+            flex-grow: 1;
+            margin-right: 10px; }
+          .modal .modal-content-bottom .buttons button.no {
+            flex-grow: 1; }
+
+#click {
+  display: inline-block;
+  padding: 7px 14px;
+  background: gray;
+  color: white; }
+
+.main-modal {
+  display: none; }

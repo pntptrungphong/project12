@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 250px;
+  height: 190px;
+}
+
+.card {
+  border-radius: 20px;
+  width: 800px;
+  height: 400px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card .box1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 250px;
+  margin-left: 90px;
+  border: 1px solid whitesmoke;
+  -webkit-box-shadow: 1px 2px 2px 2px whitesmoke;
+          box-shadow: 1px 2px 2px 2px whitesmoke;
+}
+
+.card .box1 h3 {
+  color: darkcyan;
+  padding: 15px;
+}
+
+.card .box1 a {
+  padding-left: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.card .box1 .abc {
+  white-space: nowrap;
+}
+
+.card .box1 .line1 {
+  margin-top: 50px;
+}
+
+.card .box1 .line1 a.time {
+  font-size: 15px;
+  color: darkgrey;
+  padding: 15px;
+}
+
+.card .box2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 250px;
+  margin-right: 90px;
+  border: 1px solid whitesmoke;
+  -webkit-box-shadow: 1px 2px 2px 2px whitesmoke;
+          box-shadow: 1px 2px 2px 2px whitesmoke;
+}
+
+.card .box2 h3 {
+  color: darkcyan;
+  padding: 15px;
+}
+
+.card .box2 a.CSS {
+  padding-left: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.card .box2 .lastline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 15px;
+  margin-top: 55px;
+  padding: 15px;
+}
+
+.card .box2 .lastline a {
+  text-decoration: none;
+  color: darkgrey;
+}
+
+.card .box2 .lastline a.cc {
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=bt1_1106.css.map */

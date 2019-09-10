@@ -1,0 +1,104 @@
+.card{
+    box-shadow: 10px 10px 50px 30px;
+    width: 500px;
+    background-color: aqua; 
+    //solid duong vien
+    //dashed duong gap khuc
+    border: 2px dashed;
+    //4 goc cong cong
+    border-radius: 20px;
+    padding: 20px;
+    //tat ca hinh va chu canh giua
+    text-align: center;
+    // img{
+    //     margin-left:90px;
+
+    // }
+    // h2{
+    //     margin-left:130px;
+
+    // }
+    h2{
+        //margin là khoảng cách giữa 2  thẻ html
+        margin: 20px 0;
+        //tất cả những hiệu ứng của h2 sẽ chuyển đổi trong 1s
+        transition: 1s;
+        &:hover{
+            background-color: darkred;
+            display: inline-block;
+            color: deeppink;
+        }
+        display: inline-block;
+      
+    }
+    p{
+        margin-bottom: 40px;
+        transition: 1s;
+        &:hover{
+            color: darkblue;
+            padding-top: 40px;
+        }
+    }
+    // a{
+    //     margin: 0px 100px;
+    // }
+    .button{
+        //nam cung tren 1 hàng trong cùng thằng cha
+        display: flex;
+        //có khoảng cách ở giữa
+        //justify-content chi xài dược khi co display:flex
+        //luc nào cũng có khoảng trắng cân bằng nằm giữa các thằng con
+        justify-content: space-between;
+        a{
+            //bỏ giấu gạch chân
+            text-decoration: none;
+            color: blueviolet;
+            transition: 1s;
+           // padding: 7px 14px;
+            border-radius: 4px;
+            &.prev{
+                background: coral;
+                color: chartreuse;
+                //hover là khi di chuyển trỏ chuột vào sẽ thay đổi 
+                &:hover{
+                    background-color: indigo;
+                    color: green;
+                }
+
+
+
+            }
+            &.next{
+                color: darkred;
+                border: 2px solid chocolate;
+                &:hover{
+                    background-color: black;
+                    color: green;
+                }
+             
+            }
+            &:hover{
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+
+    
+        }
+    }
+   
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+//canh class card ra giữa màn hình
+body{
+    //100vh: view height
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkorange;
+}

@@ -1,0 +1,380 @@
+header {
+  width: 1365px;
+  margin: auto; }
+  header .header .search {
+    border-bottom: 1px solid #e8e8e8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    font-size: 13.5px;
+    line-height: 36.4px; }
+    header .header .search .input input {
+      padding: 8px; }
+    header .header .search .shopping {
+      display: flex; }
+      header .header .search .shopping .cart {
+        margin-right: 30px;
+        display: flex; }
+        header .header .search .shopping .cart a {
+          color: #333;
+          font-size: 13.5px;
+          line-height: 36.4px;
+          transition: 0.9s; }
+          header .header .search .shopping .cart a:hover {
+            opacity: 0.7; }
+        header .header .search .shopping .cart .icon-cart {
+          margin-right: 15px; }
+          header .header .search .shopping .cart .icon-cart a i {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            fill: currentColor;
+            color: #333;
+            font-size: 20px;
+            transition: 0.9s; }
+            header .header .search .shopping .cart .icon-cart a i:hover {
+              opacity: 0.7; }
+      header .header .search .shopping .check-out a {
+        color: #333;
+        font-size: 13.5px;
+        line-height: 36.4px;
+        transition: 0.9s; }
+        header .header .search .shopping .check-out a:hover {
+          opacity: 0.7; }
+
+.simple {
+  width: 1200px;
+  margin: auto;
+  padding-top: 30px; }
+  .simple a img {
+    transition: 0.9s; }
+    .simple a img:hover {
+      opacity: 0.7; }
+
+.content1 img {
+  width: 303px;
+  height: 303px; }
+
+.container {
+  padding-top: 30px;
+  width: 1200px;
+  margin: auto; }
+  .container .content {
+    display: flex; }
+    .container .content .mega-menu {
+      width: 20%; }
+      .container .content .mega-menu ul li {
+        border-top: 1px solid #e8e8e8;
+        padding: 12px 0; }
+        .container .content .mega-menu ul li:first-child a {
+          color: #333;
+          font-weight: 700; }
+        .container .content .mega-menu ul li:last-child {
+          border-bottom: 1px solid #e8e8e8; }
+        .container .content .mega-menu ul li a {
+          color: #333;
+          font-size: 18px;
+          transition: 0.9s; }
+          .container .content .mega-menu ul li a:hover {
+            opacity: 0.7; }
+    .container .content .mega-img {
+      width: 80%;
+      padding-left: 30px; }
+      .container .content .mega-img h2 {
+        font-weight: 400; }
+      .container .content .mega-img .content1 {
+        margin-top: 40px;
+        display: flex; }
+        .container .content .mega-img .content1 .pic1 {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          animation: fadeUp 0.8s forwards; }
+          .container .content .mega-img .content1 .pic1 a {
+            margin-bottom: 10px;
+            color: #333;
+            transition: 0.9s; }
+            .container .content .mega-img .content1 .pic1 a:hover {
+              opacity: 0.7; }
+      .container .content .mega-img .content2 {
+        margin-top: 40px;
+        display: flex; }
+        .container .content .mega-img .content2 img {
+          width: 303px;
+          height: 303px; }
+        .container .content .mega-img .content2 .pic1 {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          animation: fadeUp 0.8s linear 0.5s forwards; }
+          .container .content .mega-img .content2 .pic1 a {
+            margin-bottom: 10px;
+            color: #333;
+            transition: 0.9s;
+            width: 99%;
+            text-align: center; }
+            .container .content .mega-img .content2 .pic1 a:hover {
+              opacity: 0.7; }
+        .container .content .mega-img .content2 .pic2 {
+          position: relative; }
+          .container .content .mega-img .content2 .pic2 .sale {
+            position: absolute;
+            top: 10px;
+            right: 25px;
+            height: 55px;
+            width: 55px;
+            padding: 15px;
+            border-radius: 50%;
+            background-color: #c8493f;
+            text-align: center;
+            animation: fadeUp 0.8s forwards; }
+            .container .content .mega-img .content2 .pic2 .sale span {
+              font-size: 15px;
+              color: #fff; }
+          .container .content .mega-img .content2 .pic2 .pic2-sale {
+            animation: fadeUp 0.8s forwards; }
+            .container .content .mega-img .content2 .pic2 .pic2-sale .pic {
+              display: flex;
+              align-items: center;
+              flex-direction: column; }
+              .container .content .mega-img .content2 .pic2 .pic2-sale .pic a {
+                margin-bottom: 10px;
+                color: #333;
+                transition: 0.9s; }
+                .container .content .mega-img .content2 .pic2 .pic2-sale .pic a:hover {
+                  opacity: 0.7; }
+              .container .content .mega-img .content2 .pic2 .pic2-sale .pic span {
+                display: flex;
+                color: #c8493f; }
+                .container .content .mega-img .content2 .pic2 .pic2-sale .pic span h4 {
+                  margin-left: 4px;
+                  color: #333;
+                  text-decoration: line-through; }
+        .container .content .mega-img .content2 .pic3 {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          animation: fadeUp 0.8s forwards; }
+          .container .content .mega-img .content2 .pic3 a {
+            margin-bottom: 10px;
+            color: #333;
+            transition: 0.9s; }
+            .container .content .mega-img .content2 .pic3 a:hover {
+              opacity: 0.7; }
+      .container .content .mega-img .content3 {
+        margin-top: 40px;
+        display: flex; }
+        .container .content .mega-img .content3 .accessories {
+          padding: 0 15px;
+          margin-right: 35px;
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          width: 216px;
+          height: 216px;
+          background: url(https://cdn.shopify.com/s/files/1/0037/5472/products/Weekender-Black1_360x.jpg?v=1509388970) no-repeat center/cover; }
+          .container .content .mega-img .content3 .accessories h2 {
+            color: white; }
+          .container .content .mega-img .content3 .accessories::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            content: " ";
+            background: #333;
+            opacity: 0.4;
+            transition: 0.5s; }
+          .container .content .mega-img .content3 .accessories:hover::after {
+            opacity: 0.2; }
+        .container .content .mega-img .content3 .demin {
+          margin-right: 35px;
+          padding: 0 15px;
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          width: 216px;
+          height: 216px;
+          background: url(https://cdn.shopify.com/s/files/1/0037/5472/products/TRENCH-SKINNY-JEANS---BLEACH-WASHF_360x.jpg?v=1509388913) no-repeat center/cover; }
+          .container .content .mega-img .content3 .demin h2 {
+            color: white; }
+          .container .content .mega-img .content3 .demin::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            content: " ";
+            background: #333;
+            opacity: 0.4;
+            transition: 0.5s; }
+          .container .content .mega-img .content3 .demin:hover::after {
+            opacity: 0.2; }
+        .container .content .mega-img .content3 .footwear {
+          margin-right: 35px;
+          padding: 0 15px;
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          width: 216px;
+          height: 216px;
+          background: url(https://cdn.shopify.com/s/files/1/0037/5472/products/SGT-569B_01_360x.jpg?v=1509388951) no-repeat center/cover; }
+          .container .content .mega-img .content3 .footwear h2 {
+            color: white; }
+          .container .content .mega-img .content3 .footwear::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            content: " ";
+            background: #333;
+            opacity: 0.4;
+            transition: 0.5s; }
+          .container .content .mega-img .content3 .footwear:hover::after {
+            opacity: 0.2; }
+        .container .content .mega-img .content3 .outerwear {
+          padding: 0 15px;
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          width: 216px;
+          height: 216px;
+          background: url(https://cdn.shopify.com/s/files/1/0037/5472/products/SGT-616_METTLEDYARN_BGy_01_360x.jpg?v=1509388894) no-repeat center/cover; }
+          .container .content .mega-img .content3 .outerwear h2 {
+            color: white; }
+          .container .content .mega-img .content3 .outerwear::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            content: " ";
+            background: #333;
+            opacity: 0.4;
+            transition: 0.5s; }
+          .container .content .mega-img .content3 .outerwear:hover::after {
+            opacity: 0.2; }
+      .container .content .mega-img .content4 {
+        margin-top: 40px;
+        display: flex; }
+        .container .content .mega-img .content4 .pants {
+          padding: 0 15px;
+          margin-right: 35px;
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          width: 216px;
+          height: 216px;
+          background: url(https://cdn.shopify.com/s/files/1/0037/5472/products/SGT-608_CHINO_N_01_360x.jpg?v=1509388902) no-repeat center/cover; }
+          .container .content .mega-img .content4 .pants h2 {
+            color: white; }
+          .container .content .mega-img .content4 .pants::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            content: " ";
+            background: #333;
+            opacity: 0.4;
+            transition: 0.5s; }
+          .container .content .mega-img .content4 .pants:hover::after {
+            opacity: 0.2; }
+        .container .content .mega-img .content4 .shirts {
+          margin-right: 35px;
+          padding: 0 15px;
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          width: 216px;
+          height: 216px;
+          background: url(https://cdn.shopify.com/s/files/1/0037/5472/products/SGT-613_DOBBY_B_01_360x.jpg?v=1509388897) no-repeat center/cover; }
+          .container .content .mega-img .content4 .shirts h2 {
+            color: white; }
+          .container .content .mega-img .content4 .shirts::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            content: " ";
+            background: #333;
+            opacity: 0.4;
+            transition: 0.5s; }
+          .container .content .mega-img .content4 .shirts:hover::after {
+            opacity: 0.2; }
+        .container .content .mega-img .content4 .t-shirts {
+          margin-right: 35px;
+          padding: 0 15px;
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          width: 216px;
+          height: 216px;
+          background: url(https://cdn.shopify.com/s/files/1/0037/5472/products/SGT-600_APPLIQUE_N_01_360x.jpg?v=1509388905) no-repeat center/cover; }
+          .container .content .mega-img .content4 .t-shirts h2 {
+            color: white; }
+          .container .content .mega-img .content4 .t-shirts::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            content: " ";
+            background: #333;
+            opacity: 0.4;
+            transition: 0.5s; }
+          .container .content .mega-img .content4 .t-shirts:hover::after {
+            opacity: 0.2; }
+        .container .content .mega-img .content4 .short {
+          padding: 0 15px;
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          width: 216px;
+          height: 216px;
+          background: url(https://cdn.shopify.com/s/files/1/0037/5472/products/SGT-740B_CAMO_01_360x.jpg?v=1509388701) no-repeat center/cover; }
+          .container .content .mega-img .content4 .short h2 {
+            color: white; }
+          .container .content .mega-img .content4 .short::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            content: " ";
+            background: #333;
+            opacity: 0.4;
+            transition: 0.5s; }
+          .container .content .mega-img .content4 .short:hover::after {
+            opacity: 0.2; }
+
+@keyframes fadeUp {
+  from {
+    transform: translateY(300px); }
+  to {
+    transform: translateY(0); } }
+
+.title2 {
+  margin: 20px 0; }

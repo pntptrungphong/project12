@@ -1,0 +1,558 @@
+body {
+  font-family: "NhacCuaTui", sans-serif; }
+
+.header1 {
+  width: 100%;
+  border-bottom: #dadada solid 1px;
+  position: relative;
+  z-index: 999;
+  margin-bottom: 89px; }
+
+header {
+  position: fixed;
+  display: flex;
+  width: 1200px;
+  margin: auto;
+  justify-content: space-between;
+  padding: 6px 0 7px 0;
+  background: #ffffff;
+  height: 65px; }
+  header .logo-mini {
+    padding: 14px; }
+  header .list-title {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 10px 10px;
+    opacity: 1; }
+    header .list-title > li {
+      padding: 1px 16px 0 0;
+      position: relative; }
+      header .list-title > li > a {
+        font-size: 14px;
+        color: #222222;
+        line-height: 42px;
+        font-weight: 600; }
+    header .list-title li > .song {
+      display: none;
+      position: absolute;
+      padding: 5px 23px;
+      width: 520px;
+      top: 56px;
+      border: 1px solid #d9d9d9;
+      background: #fff;
+      box-shadow: 0 3px 8px rgba(3, 3, 3, 0.26);
+      animation: fadeUp 1s forwards; }
+      header .list-title li > .song li {
+        display: flex;
+        justify-content: space-between; }
+        header .list-title li > .song li .usuk li,
+        header .list-title li > .song li .vietnam li,
+        header .list-title li > .song li .asia li,
+        header .list-title li > .song li .different li {
+          transition: 1s; }
+          header .list-title li > .song li .usuk li a,
+          header .list-title li > .song li .vietnam li a,
+          header .list-title li > .song li .asia li a,
+          header .list-title li > .song li .different li a {
+            font-size: 15px;
+            color: #222222;
+            line-height: 42px; }
+          header .list-title li > .song li .usuk li:first-child a,
+          header .list-title li > .song li .vietnam li:first-child a,
+          header .list-title li > .song li .asia li:first-child a,
+          header .list-title li > .song li .different li:first-child a {
+            font-size: 16px;
+            color: #222222;
+            line-height: 42px;
+            font-weight: 600; }
+          header .list-title li > .song li .usuk li:hover a,
+          header .list-title li > .song li .vietnam li:hover a,
+          header .list-title li > .song li .asia li:hover a,
+          header .list-title li > .song li .different li:hover a {
+            color: #2daaed; }
+    header .list-title li:hover > .song {
+      display: block; }
+    header .list-title li > .bxh {
+      display: none;
+      width: 122px;
+      position: absolute;
+      padding: 5px 23px;
+      top: 56px;
+      border: 1px solid #d9d9d9;
+      background: #fff;
+      box-shadow: 0 3px 8px rgba(3, 3, 3, 0.26);
+      animation: fadeUp 1s forwards; }
+      header .list-title li > .bxh li {
+        transition: 1s; }
+        header .list-title li > .bxh li a {
+          font-size: 15px;
+          color: #222222;
+          line-height: 42px; }
+        header .list-title li > .bxh li:hover a {
+          color: #2daaed; }
+    header .list-title li:hover > .bxh {
+      display: block; }
+    header .list-title li > .cham {
+      position: relative; }
+      header .list-title li > .cham::before {
+        content: " ";
+        top: 0;
+        left: 0;
+        height: 4px;
+        width: 21px;
+        position: absolute;
+        background: url(https://stc-id.nixcdn.com/v11/images/header_new/ic_more_new.png); }
+  header .list-icon {
+    align-items: center;
+    display: flex;
+    padding: 10px 10px 10px 25px;
+    margin-right: -83px; }
+    header .list-icon li {
+      position: relative;
+      float: left;
+      margin: 2px 33px 0 0; }
+      header .list-icon li a {
+        opacity: 0.7;
+        transition: 1s; }
+        header .list-icon li a i {
+          font-size: 20px;
+          color: #222222; }
+        header .list-icon li a .fa-crown {
+          color: yellow; }
+        header .list-icon li a:hover {
+          opacity: 1; }
+  header form {
+    display: flex;
+    align-items: center;
+    margin-right: 57px;
+    position: relative;
+    width: 280px;
+    height: 40px;
+    float: right;
+    top: 9px;
+    left: 66px; }
+    header form input {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      color: rgba(0, 0, 0, 0.5);
+      font-size: 14px;
+      width: 240px;
+      height: 40px;
+      border: 1px solid #2f80ed;
+      padding: 0 9px; }
+      header form input::placeholder {
+        color: rgba(0, 0, 0, 0.5); }
+    header form button {
+      width: 40px;
+      /* border-radius: 2px; */
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      height: 40px;
+      background: #2f80ed; }
+      header form button i {
+        font-size: 27px;
+        color: white; }
+
+.container {
+  width: 1200px;
+  margin: auto; }
+
+.content-left {
+  width: 70%;
+  float: left; }
+  .content-left .slider1 {
+    z-index: 1;
+    background: #23262d;
+    position: relative; }
+    .content-left .slider1 img {
+      width: 840px;
+      height: 339px; }
+    .content-left .slider1 .owl-dots {
+      padding: 10px 0;
+      display: flex;
+      justify-content: center; }
+      .content-left .slider1 .owl-dots button {
+        width: 158px;
+        height: 63px;
+        transition: 1s;
+        margin: 0 10px; }
+        .content-left .slider1 .owl-dots button:nth-child(1) {
+          background: url(https://avatar-nct.nixcdn.com/slideshow/2019/08/02/d/0/1/c/1564742561614_org.jpg) no-repeat center/cover; }
+        .content-left .slider1 .owl-dots button:nth-child(2) {
+          background: url(https://avatar-nct.nixcdn.com/slideshow/2019/08/10/8/9/a/c/1565442459638_org.jpg) no-repeat center/cover; }
+        .content-left .slider1 .owl-dots button:nth-child(3) {
+          background: url(https://avatar-nct.nixcdn.com/slideshow/2019/08/13/8/2/d/8/1565687272121_org.jpg) no-repeat center/cover; }
+        .content-left .slider1 .owl-dots button:nth-child(4) {
+          background: url(https://avatar-nct.nixcdn.com/slideshow/2019/08/15/0/d/0/4/1565843326764_org.jpg) no-repeat center/cover; }
+        .content-left .slider1 .owl-dots button:nth-child(5) {
+          background: url(https://avatar-nct.nixcdn.com/slideshow/2019/07/31/3/e/9/d/1564568972582_org.jpg) no-repeat center/cover; }
+        .content-left .slider1 .owl-dots button.active {
+          border: 4px solid #e74c3c; }
+  .content-left .title-left {
+    display: inline-block; }
+    .content-left .title-left h2 {
+      font-size: 26px;
+      font-weight: 300;
+      line-height: 36px;
+      margin: 0 0 10px 0; }
+      .content-left .title-left h2 a {
+        position: relative;
+        color: #2daaed; }
+        .content-left .title-left h2 a i {
+          color: #2daaed;
+          position: absolute;
+          top: 6px;
+          right: -23px; }
+  .content-left .list1 .mv {
+    display: flex; }
+    .content-left .list1 .mv .item1 {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      width: 50%; }
+      .content-left .list1 .mv .item1::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: " ";
+        height: 99%;
+        width: 100%;
+        background: #c7c7c7;
+        opacity: 0;
+        transition: 1s; }
+      .content-left .list1 .mv .item1:hover::before {
+        opacity: 0.3; }
+      .content-left .list1 .mv .item1 img {
+        width: 410px;
+        height: 230px; }
+      .content-left .list1 .mv .item1 .time {
+        background: black;
+        position: absolute;
+        float: right;
+        bottom: 4px;
+        right: 11px;
+        padding: 1px 6px; }
+        .content-left .list1 .mv .item1 .time span {
+          color: #fff;
+          font-size: 12px; }
+      .content-left .list1 .mv .item1 .play {
+        z-index: 50;
+        position: absolute;
+        opacity: 0;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        transition: 1s; }
+        .content-left .list1 .mv .item1 .play i {
+          padding: 20px;
+          font-size: 18px;
+          color: white;
+          border: 2px solid white;
+          border-radius: 50%; }
+      .content-left .list1 .mv .item1:hover .play {
+        opacity: 1; }
+      .content-left .list1 .mv .item1 .view-listen {
+        position: absolute;
+        background: url(https://stc-id.nixcdn.com/v11/images/bg_view_listen.png) no-repeat center/cover;
+        height: 24px;
+        float: right;
+        top: 0;
+        right: 11px; }
+        .content-left .list1 .mv .item1 .view-listen i {
+          color: #c7c7c7;
+          padding-left: 10px;
+          padding-right: 4px;
+          font-size: 14px; }
+        .content-left .list1 .mv .item1 .view-listen span {
+          color: #c7c7c7;
+          font-size: 14px; }
+    .content-left .list1 .mv .item2 {
+      width: 50%; }
+      .content-left .list1 .mv .item2 img {
+        width: 410px;
+        height: 230px; }
+  .content-left .list1 ul {
+    display: flex;
+    flex-wrap: wrap; }
+    .content-left .list1 ul > li {
+      padding: 20px 0;
+      width: 20%;
+      display: inline-block; }
+      .content-left .list1 ul > li .img {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        width: 152px; }
+        .content-left .list1 ul > li .img::before {
+          position: absolute;
+          top: 0;
+          left: 0;
+          content: " ";
+          height: 99%;
+          width: 100%;
+          background: #c7c7c7;
+          opacity: 0;
+          transition: 1s; }
+        .content-left .list1 ul > li .img:hover::before {
+          opacity: 0.5; }
+        .content-left .list1 ul > li .img a img {
+          width: 152px;
+          height: 152px; }
+        .content-left .list1 ul > li .img .time {
+          background: black;
+          position: absolute;
+          float: right;
+          bottom: 4px;
+          right: 0px;
+          padding: 1px 6px; }
+          .content-left .list1 ul > li .img .time span {
+            color: #fff;
+            font-size: 12px; }
+        .content-left .list1 ul > li .img .play {
+          z-index: 50;
+          position: absolute;
+          opacity: 0;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          left: 50%;
+          transition: 1s; }
+          .content-left .list1 ul > li .img .play i {
+            padding: 16px;
+            font-size: 14px;
+            color: white;
+            border: 2px solid white;
+            border-radius: 50%; }
+        .content-left .list1 ul > li .img:hover .play {
+          opacity: 1; }
+        .content-left .list1 ul > li .img .view-listen {
+          position: absolute;
+          background: url(https://stc-id.nixcdn.com/v11/images/bg_view_listen.png) no-repeat center/cover;
+          height: 24px;
+          float: right;
+          top: 0;
+          right: 0; }
+          .content-left .list1 ul > li .img .view-listen i {
+            color: #c7c7c7;
+            padding-left: 10px;
+            padding-right: 4px;
+            font-size: 14px; }
+          .content-left .list1 ul > li .img .view-listen span {
+            color: #c7c7c7;
+            font-size: 14px; }
+      .content-left .list1 ul > li .title-song {
+        width: 156px; }
+        .content-left .list1 ul > li .title-song h3 a {
+          font-size: 13px;
+          color: black;
+          transition: 1s; }
+        .content-left .list1 ul > li .title-song h4 {
+          display: flex;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          float: left;
+          width: 152px;
+          margin-bottom: 5px;
+          color: #acacac;
+          font-size: 12px; }
+          .content-left .list1 ul > li .title-song h4 a {
+            color: rgba(0, 0, 0, 0.5); }
+        .content-left .list1 ul > li .title-song:hover a {
+          color: #2daaed; }
+  .content-left .list-song .list-song-left {
+    width: 50%; }
+    .content-left .list-song .list-song-left ul li {
+      padding: 5px 0;
+      border-top: #ececec solid 1px;
+      display: flex;
+      align-items: center; }
+      .content-left .list-song .list-song-left ul li .img img {
+        width: 60px;
+        height: 60px; }
+      .content-left .list-song .list-song-left ul li .title-song {
+        margin-left: 10px; }
+        .content-left .list-song .list-song-left ul li .title-song .name-song {
+          margin: 10px 0 0 0; }
+          .content-left .list-song .list-song-left ul li .title-song .name-song h3 a {
+            font-size: 14px;
+            color: black;
+            font-weight: 500; }
+        .content-left .list-song .list-song-left ul li .title-song .author {
+          display: flex; }
+          .content-left .list-song .list-song-left ul li .title-song .author a {
+            font-size: 12px;
+            line-height: 26px;
+            height: 24px;
+            color: rgba(0, 0, 0, 0.5); }
+      .content-left .list-song .list-song-left ul li .box-song {
+        margin-left: 92px; }
+        .content-left .list-song .list-song-left ul li .box-song .box1 i {
+          color: rgba(0, 0, 0, 0.5);
+          font-size: 12px; }
+        .content-left .list-song .list-song-left ul li .box-song .box1 span {
+          color: rgba(0, 0, 0, 0.5);
+          font-size: 12px; }
+
+@keyframes fadeUp {
+  from {
+    opacity: 0.5; }
+  to {
+    opacity: 1; } }
+
+.list2 .mv {
+  display: flex; }
+  .list2 .mv .item1 {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    width: 50%; }
+    .list2 .mv .item1::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: " ";
+      height: 99%;
+      width: 100%;
+      background: #c7c7c7;
+      opacity: 0;
+      transition: 1s; }
+    .list2 .mv .item1:hover::before {
+      opacity: 0.3; }
+    .list2 .mv .item1 img {
+      width: 410px;
+      height: 230px; }
+    .list2 .mv .item1 .time {
+      background: black;
+      position: absolute;
+      float: right;
+      bottom: 4px;
+      right: 11px;
+      padding: 1px 6px; }
+      .list2 .mv .item1 .time span {
+        color: #fff;
+        font-size: 12px; }
+    .list2 .mv .item1 .play {
+      z-index: 50;
+      position: absolute;
+      opacity: 0;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      transition: 1s; }
+      .list2 .mv .item1 .play i {
+        padding: 20px;
+        font-size: 18px;
+        color: white;
+        border: 2px solid white;
+        border-radius: 50%; }
+    .list2 .mv .item1:hover .play {
+      opacity: 1; }
+    .list2 .mv .item1 .view-listen {
+      position: absolute;
+      background: url(https://stc-id.nixcdn.com/v11/images/bg_view_listen.png) no-repeat center/cover;
+      height: 24px;
+      float: right;
+      top: 0;
+      right: 11px; }
+      .list2 .mv .item1 .view-listen i {
+        color: #c7c7c7;
+        padding-left: 10px;
+        padding-right: 4px;
+        font-size: 14px; }
+      .list2 .mv .item1 .view-listen span {
+        color: #c7c7c7;
+        font-size: 14px; }
+  .list2 .mv .item2 {
+    width: 50%; }
+    .list2 .mv .item2 img {
+      width: 410px;
+      height: 230px; }
+
+.list2 ul {
+  display: flex;
+  flex-wrap: wrap; }
+  .list2 ul > li {
+    padding: 20px 0;
+    width: 25%;
+    display: inline-block; }
+    .list2 ul > li .img {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      width: 195px; }
+      .list2 ul > li .img::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: " ";
+        height: 99%;
+        width: 100%;
+        background: #c7c7c7;
+        opacity: 0;
+        transition: 1s; }
+      .list2 ul > li .img:hover::before {
+        opacity: 0.5; }
+      .list2 ul > li .img a img {
+        width: 195px;
+        height: 109px; }
+      .list2 ul > li .img .time {
+        background: black;
+        position: absolute;
+        float: right;
+        bottom: 4px;
+        right: 0px;
+        padding: 1px 6px; }
+        .list2 ul > li .img .time span {
+          color: #fff;
+          font-size: 12px; }
+      .list2 ul > li .img .play {
+        z-index: 50;
+        position: absolute;
+        opacity: 0;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        transition: 1s; }
+        .list2 ul > li .img .play i {
+          padding: 16px;
+          font-size: 14px;
+          color: white;
+          border: 2px solid white;
+          border-radius: 50%; }
+      .list2 ul > li .img:hover .play {
+        opacity: 1; }
+      .list2 ul > li .img .view-listen {
+        position: absolute;
+        background: url(https://stc-id.nixcdn.com/v11/images/bg_view_listen.png) no-repeat center/cover;
+        height: 24px;
+        float: right;
+        top: 0;
+        right: 0; }
+        .list2 ul > li .img .view-listen i {
+          color: #c7c7c7;
+          padding-left: 10px;
+          padding-right: 4px;
+          font-size: 14px; }
+        .list2 ul > li .img .view-listen span {
+          color: #c7c7c7;
+          font-size: 14px; }
+    .list2 ul > li .title-song {
+      width: 156px; }
+      .list2 ul > li .title-song h3 a {
+        font-size: 13px;
+        color: black;
+        transition: 1s; }
+      .list2 ul > li .title-song h4 {
+        display: flex;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        float: left;
+        width: 152px;
+        margin-bottom: 5px;
+        color: #acacac;
+        font-size: 12px; }
+        .list2 ul > li .title-song h4 a {
+          color: rgba(0, 0, 0, 0.5); }
+      .list2 ul > li .title-song:hover a {
+        color: #2daaed; }

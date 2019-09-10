@@ -1,0 +1,787 @@
+header {
+  width: 1349px;
+  margin: auto; }
+  header .header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1150px;
+    margin: auto;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 10px 0; }
+    header .header1 .text1 {
+      color: #1c1c1c;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      display: block; }
+      header .header1 .text1 a {
+        color: #1c1c1c;
+        font-weight: 700;
+        transition: 0.5s; }
+        header .header1 .text1 a:hover {
+          color: #f3730b;
+          opacity: 0.7; }
+      header .header1 .text1 span {
+        font-weight: 500; }
+    header .header1 .logo-evo img {
+      width: 140px;
+      height: 70px; }
+    header .header1 .text2 {
+      display: flex; }
+      header .header1 .text2 .account {
+        margin-right: 25px; }
+        header .header1 .text2 .account a {
+          color: #1c1c1c;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          display: block;
+          font-weight: 500;
+          transition: 0.5s; }
+          header .header1 .text2 .account a:hover {
+            color: #f3730b;
+            opacity: 0.7; }
+      header .header1 .text2 .bag {
+        display: flex; }
+        header .header1 .text2 .bag a {
+          margin-right: 25px;
+          color: #1c1c1c;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          display: block;
+          font-weight: 500;
+          transition: 0.5s; }
+          header .header1 .text2 .bag a:hover {
+            color: #f3730b;
+            opacity: 0.7; }
+          header .header1 .text2 .bag a i {
+            font-size: 13px;
+            transition: 0.5s; }
+            header .header1 .text2 .bag a i:hover {
+              color: #f3730b;
+              opacity: 0.7; }
+        header .header1 .text2 .bag i {
+          font-size: 13px;
+          transition: 0.5s;
+          margin: 3px; }
+          header .header1 .text2 .bag i:hover {
+            color: #f3730b;
+            opacity: 0.7; }
+  header .header2 {
+    padding: 20px 0;
+    width: 1100px;
+    margin: auto; }
+    header .header2 > ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      header .header2 > ul > li {
+        position: relative; }
+        header .header2 > ul > li > a {
+          color: #1c1c1c;
+          font-size: 14px;
+          padding: 10px;
+          font-weight: 800;
+          text-transform: uppercase;
+          letter-spacing: 1.5px; }
+        header .header2 > ul > li:first-child a {
+          color: #916841; }
+        header .header2 > ul > li > .item1 {
+          border: 1px solid #f5f5f5;
+          position: absolute;
+          display: none;
+          background: white;
+          padding: 6px;
+          width: 200px; }
+          header .header2 > ul > li > .item1 li {
+            margin: 10px 0;
+            border-bottom: 1px solid #f7f7f7;
+            padding: 5px 0;
+            transition: 0.5s; }
+            header .header2 > ul > li > .item1 li a {
+              color: #1c1c1c;
+              font-weight: 400; }
+            header .header2 > ul > li > .item1 li:hover a {
+              color: #916841; }
+        header .header2 > ul > li:hover > .item1 {
+          display: block;
+          animation: fadeUp 0.8s forwards; }
+        header .header2 > ul > li > .item2 {
+          border: 1px solid #f5f5f5;
+          position: absolute;
+          display: none;
+          background: white;
+          padding: 6px;
+          width: 200px; }
+          header .header2 > ul > li > .item2 li {
+            margin: 10px 0;
+            border-bottom: 1px solid #f7f7f7;
+            padding: 5px 0;
+            transition: 0.5s; }
+            header .header2 > ul > li > .item2 li a {
+              color: #1c1c1c;
+              font-weight: 400; }
+            header .header2 > ul > li > .item2 li:hover a {
+              color: #916841; }
+        header .header2 > ul > li:hover > .item2 {
+          display: block;
+          animation: fadeUp 0.8s forwards; }
+        header .header2 > ul > li > .item3 {
+          border: 1px solid #f5f5f5;
+          position: absolute;
+          display: none;
+          background: white;
+          padding: 6px;
+          width: 200px; }
+          header .header2 > ul > li > .item3 li {
+            margin: 10px 0;
+            border-bottom: 1px solid #f7f7f7;
+            padding: 5px 0;
+            transition: 0.5s; }
+            header .header2 > ul > li > .item3 li a {
+              color: #1c1c1c;
+              font-weight: 400; }
+            header .header2 > ul > li > .item3 li:hover a {
+              color: #916841; }
+        header .header2 > ul > li:hover > .item3 {
+          display: block;
+          animation: fadeUp 0.8s forwards; }
+        header .header2 > ul > li > .item4 {
+          border: 1px solid #f5f5f5;
+          position: absolute;
+          display: none;
+          background: white;
+          padding: 6px;
+          width: 200px; }
+          header .header2 > ul > li > .item4 li {
+            margin: 10px 0;
+            border-bottom: 1px solid #f7f7f7;
+            padding: 5px 0;
+            transition: 0.5s; }
+            header .header2 > ul > li > .item4 li > .item20 {
+              border: 1px solid #f5f5f5;
+              position: absolute;
+              display: none;
+              background: white;
+              padding: 6px;
+              width: 200px; }
+              header .header2 > ul > li > .item4 li > .item20 li {
+                margin: 10px 0;
+                border-bottom: 1px solid #f7f7f7;
+                padding: 5px 0;
+                transition: 0.5s; }
+                header .header2 > ul > li > .item4 li > .item20 li a {
+                  color: #1c1c1c;
+                  font-weight: 400; }
+                header .header2 > ul > li > .item4 li > .item20 li:hover a {
+                  color: #916841; }
+            header .header2 > ul > li > .item4 li:hover > .item20 {
+              display: block;
+              animation: fadeUp 0.8s forwards; }
+            header .header2 > ul > li > .item4 li a {
+              color: #1c1c1c;
+              font-weight: 400; }
+            header .header2 > ul > li > .item4 li:hover a {
+              color: #916841; }
+        header .header2 > ul > li:hover > .item4 {
+          display: block;
+          animation: fadeUp 0.8s forwards; }
+        header .header2 > ul > li > .item5 {
+          display: none;
+          position: absolute;
+          background: white;
+          border: 1px solid #f5f5f5;
+          width: 1000px;
+          left: -656px; }
+          header .header2 > ul > li > .item5 > li > .infor-item {
+            padding: 17px;
+            display: flex; }
+            header .header2 > ul > li > .item5 > li > .infor-item > .item-left > li.nam a {
+              color: #1c1c1c !important;
+              text-transform: uppercase;
+              font-weight: 800;
+              margin-bottom: 10px;
+              display: inline-block; }
+            header .header2 > ul > li > .item5 > li > .infor-item > .item-left > li a {
+              color: #1c1c1c !important;
+              margin-bottom: 10px;
+              display: inline-block; }
+            header .header2 > ul > li > .item5 > li > .infor-item > .item-left > li:last-child a {
+              color: #1c1c1c !important;
+              text-transform: uppercase;
+              font-weight: 800;
+              margin-bottom: 20px;
+              display: inline-block; }
+            header .header2 > ul > li > .item5 > li > .infor-item > .item-mid {
+              margin: 0 187px; }
+              header .header2 > ul > li > .item5 > li > .infor-item > .item-mid > li.nu a {
+                color: #1c1c1c !important;
+                text-transform: uppercase;
+                font-weight: 800;
+                margin-bottom: 10px;
+                display: inline-block; }
+              header .header2 > ul > li > .item5 > li > .infor-item > .item-mid > li a {
+                color: #1c1c1c !important;
+                margin-bottom: 10px;
+                display: inline-block; }
+              header .header2 > ul > li > .item5 > li > .infor-item > .item-mid > li:last-child a {
+                color: #1c1c1c !important;
+                text-transform: uppercase;
+                font-weight: 800;
+                margin-bottom: 20px;
+                display: inline-block; }
+            header .header2 > ul > li > .item5 > li > .infor-item > .item-right > li.pk a {
+              color: #1c1c1c !important;
+              text-transform: uppercase;
+              font-weight: 800;
+              margin-bottom: 10px;
+              display: inline-block; }
+            header .header2 > ul > li > .item5 > li > .infor-item > .item-right > li a {
+              color: #1c1c1c !important;
+              margin-bottom: 10px;
+              display: inline-block; }
+        header .header2 > ul > li:hover > .item5 {
+          display: block;
+          animation: fadeUp 0.8s forwards; }
+        header .header2 > ul > li > .item6 {
+          border: 1px solid #f5f5f5;
+          position: absolute;
+          display: none;
+          background: white;
+          padding: 6px;
+          width: 200px; }
+          header .header2 > ul > li > .item6 li {
+            margin: 10px 0;
+            border-bottom: 1px solid #f7f7f7;
+            padding: 5px 0;
+            transition: 0.5s; }
+            header .header2 > ul > li > .item6 li a {
+              color: #1c1c1c;
+              font-weight: 400; }
+            header .header2 > ul > li > .item6 li:hover a {
+              color: #916841; }
+        header .header2 > ul > li:hover > .item6 {
+          display: block;
+          animation: fadeUp 0.8s forwards; }
+
+body {
+  font-family: "SVN-Gotham"; }
+
+@keyframes fadeUp {
+  from {
+    transform: translateY(40px); }
+  to {
+    transform: translateY(0); } }
+
+.container {
+  width: 1349px;
+  margin: auto; }
+  .container .img img {
+    width: 1349px;
+    height: 642px; }
+  .container .content {
+    width: 1150px;
+    margin: auto; }
+    .container .content .title {
+      text-align: center;
+      margin: 30px 0; }
+      .container .content .title h2 {
+        padding-bottom: 20px;
+        font-size: 26px;
+        line-height: 28px;
+        margin: 0;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 2.4px; }
+        .container .content .title h2 a {
+          color: #1c1c1c;
+          transition: 0.5s; }
+          .container .content .title h2 a:hover {
+            color: #916841; }
+          .container .content .title h2 a span {
+            font-weight: 800; }
+      .container .content .title ul {
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        .container .content .title ul li a {
+          display: inline-block;
+          color: #1c1c1c;
+          margin-right: 5px;
+          position: relative;
+          padding-right: 5px;
+          transition: 0.5s;
+          font-weight: 500px; }
+          .container .content .title ul li a:hover {
+            color: #916841; }
+          .container .content .title ul li a::before {
+            content: "/";
+            color: #bfbfbf;
+            position: absolute;
+            right: -5px;
+            top: 50%;
+            transform: translate(0, -50%);
+            font-size: 24px; }
+  .container .price-watch {
+    width: 1150px;
+    margin: auto;
+    position: relative; }
+    .container .price-watch .slider .slide > ul li {
+      text-align: center;
+      display: inline-block;
+      position: relative; }
+      .container .price-watch .slider .slide > ul li a .pic1 {
+        display: inline-block;
+        position: relative; }
+        .container .price-watch .slider .slide > ul li a .pic1 img {
+          width: 280px;
+          height: 280px; }
+        .container .price-watch .slider .slide > ul li a .pic1:after {
+          top: 0;
+          left: 0;
+          content: " ";
+          position: absolute; }
+        .container .price-watch .slider .slide > ul li a .pic1:hover::after {
+          width: 280px;
+          height: 280px;
+          background: url(https://bizweb.dktcdn.net/thumb/large/100/355/487/products/2-7924b629b302406c9a553e3ef00763a1-master.jpg?v=1557756144450) no-repeat center/cover; }
+      .container .price-watch .slider .slide > ul li a .pic2 {
+        display: inline-block;
+        position: relative; }
+        .container .price-watch .slider .slide > ul li a .pic2 img {
+          width: 280px;
+          height: 280px; }
+        .container .price-watch .slider .slide > ul li a .pic2:after {
+          top: 0;
+          left: 0;
+          content: " ";
+          position: absolute; }
+        .container .price-watch .slider .slide > ul li a .pic2:hover::after {
+          width: 280px;
+          height: 280px;
+          background: url(https://bizweb.dktcdn.net/thumb/large/100/355/487/products/dong-ho-mvmt-crux-2-master.jpg?v=1557756213637) no-repeat center/cover; }
+      .container .price-watch .slider .slide > ul li a .pic3 {
+        display: inline-block;
+        position: relative; }
+        .container .price-watch .slider .slide > ul li a .pic3 img {
+          width: 280px;
+          height: 280px; }
+        .container .price-watch .slider .slide > ul li a .pic3:after {
+          top: 0;
+          left: 0;
+          content: " ";
+          position: absolute; }
+        .container .price-watch .slider .slide > ul li a .pic3:hover::after {
+          width: 280px;
+          height: 280px;
+          background: url(https://bizweb.dktcdn.net/thumb/large/100/355/487/products/dong-ho-mvmt-magnolia-2-master.jpg?v=1557756073033) no-repeat center/cover; }
+      .container .price-watch .slider .slide > ul li a .pic4 {
+        display: inline-block;
+        position: relative; }
+        .container .price-watch .slider .slide > ul li a .pic4 img {
+          width: 280px;
+          height: 280px; }
+        .container .price-watch .slider .slide > ul li a .pic4:after {
+          top: 0;
+          left: 0;
+          content: " ";
+          position: absolute; }
+        .container .price-watch .slider .slide > ul li a .pic4:hover::after {
+          width: 280px;
+          height: 280px;
+          background: url(https://bizweb.dktcdn.net/thumb/large/100/355/487/products/dong-ho-mvmt-black-link-2-master.jpg?v=1557755989287) no-repeat center/cover; }
+      .container .price-watch .slider .slide > ul li .add {
+        position: absolute;
+        bottom: 2px;
+        left: 33px;
+        display: none;
+        height: 46px;
+        letter-spacing: 1px;
+        font-weight: 500;
+        flex: 1;
+        padding: 0 25px;
+        justify-content: center;
+        border: 1px solid #1c1c1c;
+        background: #fff;
+        line-height: 44px; }
+        .container .price-watch .slider .slide > ul li .add li a {
+          color: #1c1c1c;
+          font-size: 20px; }
+      .container .price-watch .slider .slide > ul li:hover > .add {
+        display: block;
+        animation: fadeUp2 1s forwards; }
+    .container .price-watch .title {
+      margin: 20px 0;
+      margin-left: 439px;
+      padding: 14px 28px;
+      border: 1px solid #1c1c1c;
+      display: inline-block;
+      background: #1c1c1c;
+      position: relative; }
+      .container .price-watch .title a h2 {
+        position: relative;
+        z-index: 1;
+        font-size: 18px;
+        text-align: center;
+        letter-spacing: 1.5px;
+        font-weight: 400;
+        color: #fff; }
+      .container .price-watch .title::after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background: #fff;
+        content: " ";
+        transition: 1s; }
+      .container .price-watch .title:hover::after {
+        width: 100%; }
+      .container .price-watch .title:hover a h2 {
+        color: #1c1c1c; }
+
+.content1 {
+  margin-top: 40px;
+  width: 1150px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .content1 img {
+    width: 370px;
+    height: 396px; }
+  .content1 .item7 {
+    position: relative; }
+    .content1 .item7 .watch {
+      position: absolute;
+      bottom: 50px;
+      left: 56px; }
+      .content1 .item7 .watch h3 {
+        margin-top: 0;
+        font-size: 22px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.31); }
+      .content1 .item7 .watch .continue {
+        margin-top: 10px;
+        padding: 10px 25px;
+        border: 1px solid #1c1c1c;
+        display: inline-block;
+        background-color: transparent;
+        position: relative;
+        border: 1px solid white; }
+        .content1 .item7 .watch .continue a {
+          position: relative;
+          z-index: 1;
+          font-size: 18px;
+          text-align: center;
+          letter-spacing: 1.5px;
+          font-weight: 400;
+          color: white; }
+        .content1 .item7 .watch .continue::after {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 0;
+          height: 100%;
+          background: white;
+          content: " ";
+          transition: 1s; }
+        .content1 .item7 .watch .continue:hover::after {
+          width: 100%; }
+        .content1 .item7 .watch .continue:hover a {
+          color: #1c1c1c; }
+  .content1 .item8 {
+    position: relative; }
+    .content1 .item8 .watch {
+      position: absolute;
+      bottom: 50px;
+      left: 56px; }
+      .content1 .item8 .watch h3 {
+        margin-top: 0;
+        font-size: 22px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.31); }
+      .content1 .item8 .watch .continue {
+        margin-top: 10px;
+        padding: 10px 25px;
+        border: 1px solid #1c1c1c;
+        display: inline-block;
+        background-color: transparent;
+        position: relative;
+        border: 1px solid white; }
+        .content1 .item8 .watch .continue a {
+          position: relative;
+          z-index: 1;
+          font-size: 18px;
+          text-align: center;
+          letter-spacing: 1.5px;
+          font-weight: 400;
+          color: white; }
+        .content1 .item8 .watch .continue::after {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 0;
+          height: 100%;
+          background: white;
+          content: " ";
+          transition: 1s; }
+        .content1 .item8 .watch .continue:hover::after {
+          width: 100%; }
+        .content1 .item8 .watch .continue:hover a {
+          color: #1c1c1c; }
+  .content1 .item9 {
+    position: relative; }
+    .content1 .item9 .watch {
+      position: absolute;
+      bottom: 50px;
+      left: 56px; }
+      .content1 .item9 .watch h3 {
+        margin-top: 0;
+        font-size: 22px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.31); }
+      .content1 .item9 .watch .continue {
+        margin-top: 10px;
+        padding: 10px 25px;
+        border: 1px solid #1c1c1c;
+        display: inline-block;
+        background-color: transparent;
+        position: relative;
+        border: 1px solid white; }
+        .content1 .item9 .watch .continue a {
+          position: relative;
+          z-index: 1;
+          font-size: 18px;
+          text-align: center;
+          letter-spacing: 1.5px;
+          font-weight: 400;
+          color: white; }
+        .content1 .item9 .watch .continue::after {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 0;
+          height: 100%;
+          background: white;
+          content: " ";
+          transition: 1s; }
+        .content1 .item9 .watch .continue:hover::after {
+          width: 100%; }
+        .content1 .item9 .watch .continue:hover a {
+          color: #1c1c1c; }
+
+.slider {
+  overflow: hidden;
+  margin: auto;
+  width: 1135px;
+  height: 342px;
+  display: flex;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  -webkit-scroll-snap-points-x: repeat(300px);
+  -ms-scroll-snap-points-x: repeat(300px);
+  scroll-snap-points-x: repeat(300px);
+  -webkit-scroll-snap-type: mandatory;
+  -ms-scroll-snap-type: mandatory;
+  scroll-snap-type: mandatory; }
+
+.slide {
+  flex-shrink: 0;
+  height: 100%; }
+
+.button1 {
+  z-index: 100;
+  top: 50%;
+  left: -33px;
+  transform: translateY(-50%);
+  display: inline-block;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(54, 54, 54, 0.15);
+  overflow: hidden;
+  padding: 10px 15px;
+  cursor: pointer;
+  text-align: center;
+  position: absolute;
+  vertical-align: middle; }
+  .button1 a i {
+    color: #5c5c5c; }
+
+.button2 {
+  z-index: 100;
+  top: 50%;
+  right: -33px;
+  transform: translateY(-50%);
+  display: inline-block;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(54, 54, 54, 0.15);
+  overflow: hidden;
+  padding: 10px 15px;
+  cursor: pointer;
+  text-align: center;
+  position: absolute;
+  vertical-align: middle; }
+  .button2 a i {
+    color: #5c5c5c; }
+
+.content2 {
+  background: url(https://bizweb.dktcdn.net/100/355/487/themes/720328/assets/ant_product_bg.jpg?1559792790877) no-repeat center/cover;
+  margin-top: 40px;
+  width: 1346px;
+  margin: auto;
+  position: relative; }
+  .content2 .slider1 {
+    margin-top: 50px;
+    position: relative; }
+    .content2 .slider1 h1 {
+      left: 50%;
+      transform: translateX(-50%);
+      position: absolute;
+      z-index: 1000;
+      font-size: 26px;
+      line-height: 28px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 2.4px; }
+      .content2 .slider1 h1 a {
+        color: #1c1c1c;
+        transition: 1s; }
+        .content2 .slider1 h1 a:hover {
+          color: #916841; }
+    .content2 .slider1 .slide1 > ul {
+      display: flex;
+      justify-items: center;
+      align-items: center; }
+      .content2 .slider1 .slide1 > ul li {
+        text-align: center;
+        display: inline-block;
+        position: relative; }
+        .content2 .slider1 .slide1 > ul li a .pic-watch {
+          margin-top: 50px; }
+          .content2 .slider1 .slide1 > ul li a .pic-watch img {
+            width: 400px;
+            height: 486px; }
+        .content2 .slider1 .slide1 > ul li .pic3 {
+          display: inline-block;
+          position: relative; }
+          .content2 .slider1 .slide1 > ul li .pic3 img {
+            width: 280px;
+            height: 280px; }
+          .content2 .slider1 .slide1 > ul li .pic3:after {
+            top: 0;
+            left: 0;
+            content: " ";
+            position: absolute; }
+          .content2 .slider1 .slide1 > ul li .pic3:hover::after {
+            width: 280px;
+            height: 280px;
+            background: url(https://bizweb.dktcdn.net/thumb/large/100/355/487/products/dong-ho-mvmt-magnolia-2-master.jpg?v=1557756073033) no-repeat center/cover; }
+        .content2 .slider1 .slide1 > ul li .pic4 {
+          display: inline-block;
+          position: relative; }
+          .content2 .slider1 .slide1 > ul li .pic4 img {
+            width: 280px;
+            height: 280px; }
+          .content2 .slider1 .slide1 > ul li .pic4:after {
+            top: 0;
+            left: 0;
+            content: " ";
+            position: absolute; }
+          .content2 .slider1 .slide1 > ul li .pic4:hover::after {
+            width: 280px;
+            height: 280px;
+            background: url(https://bizweb.dktcdn.net/thumb/large/100/355/487/products/dong-ho-mvmt-crux-2-master.jpg?v=1557756213637) no-repeat center/cover; }
+        .content2 .slider1 .slide1 > ul li .add {
+          position: absolute;
+          bottom: 2px;
+          left: 33px;
+          display: none;
+          height: 46px;
+          letter-spacing: 1px;
+          font-weight: 500;
+          flex: 1;
+          padding: 0 25px;
+          justify-content: center;
+          border: 1px solid #1c1c1c;
+          background: #fff;
+          line-height: 44px; }
+          .content2 .slider1 .slide1 > ul li .add li a {
+            color: #1c1c1c;
+            font-size: 20px; }
+        .content2 .slider1 .slide1 > ul li:hover > .add {
+          display: block;
+          animation: fadeUp2 1s forwards; }
+
+@keyframes fadeUp2 {
+  from {
+    opacity: 0;
+    transform: translateY(100px); }
+  to {
+    opacity: 1;
+    transform: translateY(0); } }
+
+@keyframes fadeUp3 {
+  from { } }
+
+.slider1 {
+  overflow: hidden;
+  margin: auto;
+  width: 710px;
+  height: 500px;
+  display: flex;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  -webkit-scroll-snap-points-x: repeat(300px);
+  -ms-scroll-snap-points-x: repeat(300px);
+  scroll-snap-points-x: repeat(300px);
+  -webkit-scroll-snap-type: mandatory;
+  -ms-scroll-snap-type: mandatory;
+  scroll-snap-type: mandatory; }
+
+.slide1 {
+  width: 0;
+  flex-shrink: 0;
+  height: 100%; }
+
+.button3 {
+  z-index: 100;
+  top: 50%;
+  left: 119px;
+  transform: translateY(-50%);
+  display: inline-block;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(54, 54, 54, 0.15);
+  overflow: hidden;
+  padding: 10px 15px;
+  cursor: pointer;
+  text-align: center;
+  position: absolute;
+  vertical-align: middle; }
+  .button3 a i {
+    color: #5c5c5c; }
+
+.button4 {
+  z-index: 100;
+  top: 50%;
+  right: 119px;
+  transform: translateY(-50%);
+  display: inline-block;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(54, 54, 54, 0.15);
+  overflow: hidden;
+  padding: 10px 15px;
+  cursor: pointer;
+  text-align: center;
+  position: absolute;
+  vertical-align: middle; }
+  .button4 a i {
+    color: #5c5c5c; }

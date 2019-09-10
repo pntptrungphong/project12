@@ -1,0 +1,83 @@
+//phan container chi can dung nhu v, gioi han noi dung
+// .container{
+//     width: 1200px;
+//     margin: auto;
+// }
+
+
+
+header.header1
+    {
+        //margin-top: 250px;
+ .container1{
+      
+            width: 1200px;
+            margin: auto;
+            display: flex;
+            //cho 2 ben ra giua
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+        background-color: #212529;
+        .logo1{
+            a{
+                padding: 0 20px;
+                text-decoration: none;
+                color: white;
+                font-family: 'Anton', sans-serif;
+                &.time{
+                    margin-left: 500px;
+                }
+            }
+        }
+    }
+header.header2{
+    background-color:#f85a40;
+    .container2{
+        width: 1200px;
+        margin: auto;
+        display: flex;
+        //cho 2 ben ra giua
+        justify-content: space-between;
+        align-items: center;
+        //padding: 10px;
+        .logo2{
+            a{
+                color: white;
+                text-decoration: none;
+                margin-left: 20px;
+                font-size: 30px;
+            }
+        }
+        .navbar{
+            ul{
+                display: flex;
+                list-style: none;
+                margin-right: 60px; 
+                li{
+                    a{
+                        padding: 0 20px;
+                        text-decoration: none;
+                        color: white;
+                        font-family: 'Crimson Text', serif;
+                        &.last{
+                            border: 2px solid white;
+                            background: white;
+                            color: orangered;
+                            padding: 10px;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+body{
+    width: 100hv;
+    justify-content: center;
+     align-items: center;
+    background-color: black;
+
+}

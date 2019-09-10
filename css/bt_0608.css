@@ -1,0 +1,254 @@
+header {
+  background-color: #3c8dbc;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between; }
+  header .logo-mini {
+    display: flex;
+    position: relative; }
+    header .logo-mini .go {
+      display: block;
+      padding: 13px;
+      width: 60px;
+      background-color: #367fa9;
+      text-align: center; }
+      header .logo-mini .go a {
+        color: #fff;
+        font-size: 18px; }
+    header .logo-mini .logo {
+      transition: 1s;
+      padding: 16px 15px; }
+      header .logo-mini .logo:hover {
+        background-color: #367fa9; }
+      header .logo-mini .logo a {
+        text-align: center; }
+        header .logo-mini .logo a i {
+          color: #fff; }
+  header nav ul {
+    display: flex; }
+    header nav ul li a {
+      color: #fff;
+      padding: 16px 15px;
+      transition: 1s; }
+      header nav ul li a i {
+        font-size: 14px; }
+      header nav ul li a:hover {
+        background-color: #367fa9; }
+
+.container {
+  display: flex;
+  height: 100vh;
+  background: #ecf0f5; }
+
+.content-left1 {
+  background-color: #222d32;
+  width: 60px;
+  display: block; }
+  .content-left1 > ul {
+    position: relative; }
+    .content-left1 > ul > li {
+      padding: 13px;
+      text-align: center;
+      transition: 1s; }
+      .content-left1 > ul > li a i {
+        font-size: 18px;
+        color: #8aa4af; }
+      .content-left1 > ul > li:hover {
+        opacity: 1;
+        background: #1e282c; }
+  .content-left1 ul li .film {
+    padding: 7px 0;
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    background-color: #222d32;
+    transition: 2s; }
+    .content-left1 ul li .film > li {
+      padding: 14px 0 0 0;
+      width: 150px; }
+      .content-left1 ul li .film > li a {
+        color: #8aa4af; }
+    .content-left1 ul li .film .select {
+      background: #2c3b41;
+      margin-top: 14px;
+      text-align: left;
+      padding: 5px 10px; }
+      .content-left1 ul li .film .select li {
+        padding: 8px 0;
+        transition: 1s; }
+        .content-left1 ul li .film .select li a {
+          color: #8aa4af; }
+          .content-left1 ul li .film .select li a i {
+            color: #8aa4af;
+            font-size: 15px; }
+        .content-left1 ul li .film .select li:hover a {
+          color: #fff; }
+          .content-left1 ul li .film .select li:hover a i {
+            color: #fff; }
+  .content-left1 ul li .tv {
+    display: none;
+    position: absolute;
+    top: 46px;
+    left: 60px;
+    background-color: #222d32;
+    transition: 2s; }
+    .content-left1 ul li .tv > li {
+      padding: 14px 0px;
+      width: 118px; }
+      .content-left1 ul li .tv > li a {
+        color: #8aa4af; }
+  .content-left1 ul li .get {
+    display: none;
+    position: absolute;
+    top: 92px;
+    left: 60px;
+    background-color: #222d32;
+    transition: 2s; }
+    .content-left1 ul li .get > li {
+      padding: 14px 0px;
+      width: 118px; }
+      .content-left1 ul li .get > li a {
+        color: #8aa4af; }
+  .content-left1 ul li .fshare {
+    display: none;
+    position: absolute;
+    top: 138px;
+    left: 60px;
+    background-color: #222d32;
+    transition: 2s; }
+    .content-left1 ul li .fshare > li {
+      padding: 14px 0px;
+      width: 181px; }
+      .content-left1 ul li .fshare > li a {
+        color: #8aa4af; }
+  .content-left1 ul li .improve {
+    display: none;
+    position: absolute;
+    top: 184px;
+    left: 60px;
+    background-color: #222d32;
+    transition: 2s; }
+    .content-left1 ul li .improve > li {
+      padding: 14px 0px;
+      width: 181px; }
+      .content-left1 ul li .improve > li a {
+        color: #8aa4af; }
+  .content-left1 ul li:hover > .film {
+    display: block; }
+  .content-left1 ul li:hover > .tv {
+    display: block; }
+  .content-left1 ul li:hover > .get {
+    display: block; }
+  .content-left1 ul li:hover > .fshare {
+    display: block; }
+  .content-left1 ul li:hover > .improve {
+    display: block; }
+
+.content-left2 {
+  background-color: #222d32;
+  width: 60px;
+  display: none; }
+  .content-left2 ul {
+    display: flex;
+    flex-direction: column;
+    float: left; }
+    .content-left2 ul li {
+      padding: 13px 0 13px 0;
+      text-align: left;
+      transition: 1s; }
+      .content-left2 ul li a {
+        color: white; }
+        .content-left2 ul li a i {
+          font-size: 18px;
+          color: #8aa4af; }
+      .content-left2 ul li:hover {
+        opacity: 1;
+        background: #1e282c; }
+  .content-left2 ul li > .select {
+    width: 200px;
+    background: #2c3b41;
+    margin-top: 14px;
+    text-align: left;
+    padding: 5px 10px; }
+    .content-left2 ul li > .select li {
+      padding: 8px 0;
+      transition: 1s; }
+      .content-left2 ul li > .select li a {
+        color: #8aa4af; }
+        .content-left2 ul li > .select li a i {
+          color: #8aa4af;
+          font-size: 15px; }
+      .content-left2 ul li > .select li:hover a {
+        color: #fff; }
+        .content-left2 ul li > .select li:hover a i {
+          color: #fff; }
+
+.content-right {
+  width: 47%;
+  margin: auto;
+  margin-top: 2%; }
+  .content-right form {
+    display: flex;
+    width: 663px;
+    margin: 10px 0 20px -20px; }
+    .content-right form input {
+      height: 46px;
+      padding: 10px 16px;
+      font-size: 18px;
+      line-height: 1.3333333;
+      border-radius: 6px;
+      width: 90%; }
+    .content-right form button {
+      height: 46px;
+      padding: 10px 16px;
+      font-size: 18px;
+      line-height: 1.3333333;
+      border-radius: 6px;
+      background-color: #31b0d5;
+      width: 116px;
+      transition: 1s;
+      color: white; }
+      .content-right form button:hover {
+        background-color: #00acd6; }
+  .content-right .content-tag {
+    display: flex;
+    margin-left: 124px;
+    margin-bottom: 22px; }
+    .content-right .content-tag a {
+      margin-right: 3px;
+      color: white;
+      padding: 1px 5px;
+      line-height: 1.5; }
+      .content-right .content-tag a h1 {
+        font-size: 16px; }
+        .content-right .content-tag a h1 i {
+          font-size: 16px; }
+  .content-right p a {
+    color: #72afd2;
+    transition: 1s; }
+    .content-right p a:hover {
+      opacity: 0.8; }
+  .content-right p .fa-smile {
+    color: white; }
+
+.hd {
+  background-color: #dd4b39;
+  border-color: #d73925;
+  border-radius: 3px; }
+
+.tvhay {
+  background-color: #ec971f;
+  border-color: #d58512;
+  border-radius: 3px; }
+
+.phim14 {
+  background-color: #449d44;
+  border-radius: 3px;
+  border-color: #398439; }
+
+.newFilm {
+  background-color: #31b0d5;
+  border-color: #269abc;
+  border-radius: 3px; }

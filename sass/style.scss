@@ -1,0 +1,67 @@
+//reset css default; reset css mac dinh
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 200px;
+  //1 minh 1 hang`
+  display: block;
+}
+p {
+  background-color: rgb(61, 30, 8);
+  color: white;
+}
+//# la goi id, . la goi class
+#news {
+  background-color: gray;
+  .first {
+    color: red;
+    background-color: black;
+    //noi dung bao nhieu chieu dai bay nhieu
+    //hien thi tren cung 1 dong
+    display: inline-block;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+  }
+}
+.news {
+  //canh giua man hinh doi voi thang cha cua no
+  text-align: center;
+}
+
+// .image{
+//   img{
+//     width: 1100px;
+//     height: 40px;
+//     margin-left: 150px; 
+//     position: fixed;
+//     //z-index: 100;
+    
+//   }
+// }
+// .heading1{
+//   padding-top: 40px;
+//   text-align: center;
+  
+// }
+// .Box{
+//   .yellow{
+//     width: 100%;
+//     border: 2px solid red;
+//     //display: inline-block;
+//    // transform: translate(50px,20px);
+//     //transform: rotate(45deg);
+//     //background-color: aqua;
+//     //tao gap khuc trong border
+//     border-radius: 10px;
+//     background: yellow;
+    
+//     }
+// }
+// a:hover{//mau` cua duong link
+//   background: black;
+//   color: brown;
+// }

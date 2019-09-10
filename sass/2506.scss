@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// .title{
+//     display: flex;
+//     align-items: center;
+//     width: 500px;
+//     h2{
+//       font-size: 24px;
+
+//     }
+//     &:after{
+//         content: ' ';
+//         background: red;
+//         height: 3px;
+//         flex-grow: 1;
+//     }
+//     &:before{
+//         content: ' ';
+//         background: red;
+//         height: 3px;
+//         flex-grow: 1;
+//     }
+// }
+$blue:blue;
+$green:red;
+$yellow:red;
+$red:red;
+$colors: (
+    $blue,
+    $green,
+    $yellow,
+    $red
+);
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eeeeee;
+}
+.bars{
+    @for $i from 1 to 100 {
+        .bar{
+            width: 500px;
+            background: #333333;
+            height: 10px;
+            position: relative;
+            &::after{
+                content: ' ';
+                position: absolute;
+                top: 0;
+                left: 0;
+                    background: red;
+                    height: 100%;
+
+            }
+            &-#{$i}{
+                &::after{
+                    width: $i*1%;
+                }
+            }
+            @each $color in $colors {
+                &-#{$color}{
+                    &::after{
+                        background: $color;
+                    }
+                }
+                
+            }
+        }
+    }
+  
+}

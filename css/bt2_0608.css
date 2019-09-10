@@ -1,0 +1,264 @@
+header {
+  background-color: #3c8dbc;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between; }
+  header .logo-mini {
+    display: flex;
+    position: relative; }
+    header .logo-mini .go {
+      display: block;
+      padding: 13px;
+      width: 60px;
+      background-color: #367fa9;
+      text-align: center; }
+      header .logo-mini .go a {
+        color: #fff;
+        font-size: 18px; }
+    header .logo-mini .logo {
+      transition: 1s;
+      padding: 16px 15px; }
+      header .logo-mini .logo:hover {
+        background-color: #367fa9; }
+      header .logo-mini .logo a {
+        text-align: center; }
+        header .logo-mini .logo a i {
+          color: #fff; }
+  header nav ul {
+    display: flex; }
+    header nav ul li a {
+      color: #fff;
+      padding: 16px 15px;
+      transition: 1s; }
+      header nav ul li a i {
+        font-size: 14px; }
+      header nav ul li a:hover {
+        background-color: #367fa9; }
+
+.container {
+  display: flex;
+  height: 100%;
+  background: #ecf0f5; }
+
+.content-left1 {
+  background-color: #222d32;
+  width: 60px;
+  display: block; }
+  .content-left1 > ul {
+    position: relative; }
+    .content-left1 > ul > li {
+      padding: 13px;
+      text-align: center;
+      transition: 1s; }
+      .content-left1 > ul > li a i {
+        font-size: 18px;
+        color: #8aa4af; }
+      .content-left1 > ul > li:hover {
+        opacity: 1;
+        background: #1e282c; }
+  .content-left1 ul li .film {
+    padding: 7px 0;
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    background-color: #222d32;
+    transition: 2s; }
+    .content-left1 ul li .film > li {
+      padding: 14px 0 0 0;
+      width: 150px; }
+      .content-left1 ul li .film > li a {
+        color: #8aa4af; }
+    .content-left1 ul li .film .select {
+      background: #2c3b41;
+      margin-top: 14px;
+      text-align: left;
+      padding: 5px 10px; }
+      .content-left1 ul li .film .select li {
+        padding: 8px 0;
+        transition: 1s; }
+        .content-left1 ul li .film .select li a {
+          color: #8aa4af; }
+          .content-left1 ul li .film .select li a i {
+            color: #8aa4af;
+            font-size: 15px; }
+        .content-left1 ul li .film .select li:hover a {
+          color: #fff; }
+          .content-left1 ul li .film .select li:hover a i {
+            color: #fff; }
+  .content-left1 ul li .tv {
+    display: none;
+    position: absolute;
+    top: 46px;
+    left: 60px;
+    background-color: #222d32;
+    transition: 2s; }
+    .content-left1 ul li .tv > li {
+      padding: 14px 0px;
+      width: 118px; }
+      .content-left1 ul li .tv > li a {
+        color: #8aa4af; }
+  .content-left1 ul li .get {
+    display: none;
+    position: absolute;
+    top: 92px;
+    left: 60px;
+    background-color: #222d32;
+    transition: 2s; }
+    .content-left1 ul li .get > li {
+      padding: 14px 0px;
+      width: 118px; }
+      .content-left1 ul li .get > li a {
+        color: #8aa4af; }
+  .content-left1 ul li .fshare {
+    display: none;
+    position: absolute;
+    top: 138px;
+    left: 60px;
+    background-color: #222d32;
+    transition: 2s; }
+    .content-left1 ul li .fshare > li {
+      padding: 14px 0px;
+      width: 181px; }
+      .content-left1 ul li .fshare > li a {
+        color: #8aa4af; }
+  .content-left1 ul li .improve {
+    display: none;
+    position: absolute;
+    top: 184px;
+    left: 60px;
+    background-color: #222d32;
+    transition: 2s; }
+    .content-left1 ul li .improve > li {
+      padding: 14px 0px;
+      width: 181px; }
+      .content-left1 ul li .improve > li a {
+        color: #8aa4af; }
+  .content-left1 ul li:hover > .film {
+    display: block; }
+  .content-left1 ul li:hover > .tv {
+    display: block; }
+  .content-left1 ul li:hover > .get {
+    display: block; }
+  .content-left1 ul li:hover > .fshare {
+    display: block; }
+  .content-left1 ul li:hover > .improve {
+    display: block; }
+
+.content-left2 {
+  background-color: #222d32;
+  width: 60px;
+  display: none; }
+  .content-left2 ul {
+    display: flex;
+    flex-direction: column;
+    float: left; }
+    .content-left2 ul li {
+      padding: 13px 0 13px 0;
+      text-align: left;
+      transition: 1s; }
+      .content-left2 ul li a {
+        color: white; }
+        .content-left2 ul li a i {
+          font-size: 18px;
+          color: #8aa4af; }
+      .content-left2 ul li:hover {
+        opacity: 1;
+        background: #1e282c; }
+  .content-left2 ul li > .select {
+    width: 200px;
+    background: #2c3b41;
+    margin-top: 14px;
+    text-align: left;
+    padding: 5px 10px; }
+    .content-left2 ul li > .select li {
+      padding: 8px 0;
+      transition: 1s; }
+      .content-left2 ul li > .select li a {
+        color: #8aa4af; }
+        .content-left2 ul li > .select li a i {
+          color: #8aa4af;
+          font-size: 15px; }
+      .content-left2 ul li > .select li:hover a {
+        color: #fff; }
+        .content-left2 ul li > .select li:hover a i {
+          color: #fff; }
+
+.content-right {
+  overflow: hidden;
+  width: 90%;
+  margin: auto;
+  margin-top: 2%; }
+  .content-right form {
+    display: flex;
+    width: 663px;
+    margin: auto;
+    margin-bottom: 30px; }
+    .content-right form input {
+      height: 46px;
+      padding: 10px 16px;
+      font-size: 18px;
+      line-height: 1.3333333;
+      border-radius: 6px;
+      width: 90%; }
+    .content-right form button {
+      height: 46px;
+      padding: 10px 16px;
+      font-size: 18px;
+      line-height: 1.3333333;
+      border-radius: 6px;
+      background-color: #31b0d5;
+      width: 116px;
+      transition: 1s;
+      color: white; }
+      .content-right form button:hover {
+        background-color: #00acd6; }
+  .content-right .list-film .list-title ul {
+    display: flex;
+    background: white; }
+    .content-right .list-film .list-title ul li {
+      padding: 14px 32px; }
+      .content-right .list-film .list-title ul li a {
+        color: #444;
+        line-height: 1.42857143; }
+    .content-right .list-film .list-title ul .active {
+      border-top: 3px solid #3c8dbc;
+      border-bottom: 1px solid white;
+      border-right: 1px solid #f4f4f4;
+      border-left: 1px solid #f4f4f4;
+      position: relative;
+      top: 1px;
+      z-index: 100; }
+  .content-right .list-film .list-film-1, .content-right .list-film .list-film-2, .content-right .list-film .list-film-3, .content-right .list-film .list-film-4 {
+    background: #fff;
+    border-top: 1px solid #f4f4f4; }
+    .content-right .list-film .list-film-1 .list1, .content-right .list-film .list-film-2 .list1, .content-right .list-film .list-film-3 .list1, .content-right .list-film .list-film-4 .list1 {
+      display: flex; }
+      .content-right .list-film .list-film-1 .list1 .item1, .content-right .list-film .list-film-2 .list1 .item1, .content-right .list-film .list-film-3 .list1 .item1, .content-right .list-film .list-film-4 .list1 .item1 {
+        display: inline-block;
+        padding: 15px; }
+        .content-right .list-film .list-film-1 .list1 .item1 .img1, .content-right .list-film .list-film-2 .list1 .item1 .img1, .content-right .list-film .list-film-3 .list1 .item1 .img1, .content-right .list-film .list-film-4 .list1 .item1 .img1 {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          border: 1px solid #f4f4f4;
+          width: 100%; }
+          .content-right .list-film .list-film-1 .list1 .item1 .img1 img, .content-right .list-film .list-film-2 .list1 .item1 .img1 img, .content-right .list-film .list-film-3 .list1 .item1 .img1 img, .content-right .list-film .list-film-4 .list1 .item1 .img1 img {
+            width: 160px;
+            height: 204px; }
+          .content-right .list-film .list-film-1 .list1 .item1 .img1 a, .content-right .list-film .list-film-2 .list1 .item1 .img1 a, .content-right .list-film .list-film-3 .list1 .item1 .img1 a, .content-right .list-film .list-film-4 .list1 .item1 .img1 a {
+            color: #72afd2;
+            padding: 14px 0; }
+
+.list-film-1 {
+  display: block; }
+
+.list-film-2 {
+  display: none; }
+
+.list-film-3 {
+  display: none; }
+
+.list-film-4 {
+  display: none; }

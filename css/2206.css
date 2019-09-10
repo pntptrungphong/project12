@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.container {
+  width: 1360px;
+  margin: auto; }
+
+input {
+  outline: none;
+  border: none;
+  margin: 20px 0;
+  width: 200px;
+  padding: 20px 25px;
+  background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%); }
+
+.slider .box {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black; }
+  .slider .box form {
+    background-color: rgba(255, 192, 203, 0.5);
+    height: 300px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .slider .box form .name {
+      position: relative; }
+      .slider .box form .name i {
+        position: absolute;
+        left: 2px;
+        top: 50%;
+        transform: translateY(-50%); }
+    .slider .box form .pass {
+      position: relative; }
+      .slider .box form .pass i {
+        position: absolute;
+        left: 2px;
+        top: 50%;
+        transform: translateY(-50%); }

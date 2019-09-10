@@ -1,0 +1,82 @@
+body {
+  background: url(../img/body-bg7.png) left top repeat;
+}
+.left p,.right p{
+        font-size: 14px;
+        margin: 5px 0px 20px 0px;
+        line-height: 16px;
+        a {
+            color: #06f;
+            text-decoration: none;
+          }
+}
+.wrapper {
+  width: 1000px;
+  margin: 0px auto;
+  padding: 0px;
+  .header {
+    background: url(../img/bag_bane.png) left top no-repeat #2a75ab;
+    height: 149px;
+    line-height: 149px;
+    position: relative;
+    a.logo {
+      background: url(../img/logo.png) left top no-repeat;
+      width: 103px;
+      height: 103px;
+      display: block;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+    .webname {
+      width: 254px;
+      position: absolute;
+      top: -10px;
+      left: 140px;
+      font-size: 36px;
+      color: #fff;
+      font-weight: bold;
+    }
+  }
+  .content {
+    background-color: #fff;
+    min-height: 300px;
+    padding: 10px 20px;
+    font-size: 13px;
+    color: #666;
+    h1 {
+      font-size: 24px;
+      padding: 5px 0px;
+    }
+    .left {
+      width: 70%;
+      margin: 20px 0px;
+      text-align: justify;
+      float: left;
+    }
+    .right {
+      width: 26%;
+      margin: 20px 0px;
+      text-align: justify;
+      border-left: 2px solid #999;
+      height: 300px;
+      float: right;
+      padding-left: 10px;
+
+    }
+  }
+}
+.ztooltip-container{
+  display: none;
+  position: absolute;
+  background: black;
+  max-width: 300px;
+  min-width: 200px;
+  color: white;
+  padding: 20px;
+  opacity: 0.85;
+  border-radius: 12px;
+}
+.ztooltip-source-tmp1{
+  display: none;
+}

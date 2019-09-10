@@ -1,0 +1,94 @@
+
+
+header{
+    .container{//gioi han khung hinh
+        //để  thẻ div nằm giữa
+        width: 1200px;
+        margin: auto;
+        display: flex;
+        //cho 2 ben ra giua
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    background-color: salmon;
+
+    .logo{
+        width: 100px;
+        height: 50px;;
+        // img{
+        //     width: 100%;
+        //     height: 100%;
+        // }
+       h1{
+           margin-left: 40px;
+           a{
+            text-decoration: none;
+            color:white;
+            //in đậm
+            font-weight: 20px;
+            //thay đổi font chữ
+            font-family: 'Crimson Text', serif;
+            &:hover{
+                color: darksalmon;
+            }
+           }
+       }
+      
+    }
+    .navbar{
+        
+        ul{
+            display: flex;
+            //bo dau cham
+             list-style: none;
+            /// margin-right: 20px;
+           
+             li{
+                 margin-left: 40px;
+                //margin-right: 40px;
+                //last-child thang cuoi cung 
+                //  &:last-child{
+                //    margin-right: 0;
+                // }
+                 a{
+                    &.active{
+                        color:orange;
+                    }
+                    color: white;
+                     transition: all 1s;
+                     text-decoration: none;
+                     padding-bottom: 7px;
+                     margin-right: 10px;;
+                     &:hover{
+                        //  border-radius: 4px;
+                        //  background: red;
+                        //  color: darkturquoise;
+                         border-bottom: 2px solid orange;
+                         color: orange;
+                     }
+                     &.login{
+                         margin-left: 40px;
+                         margin-right: 20px;
+                         border: 2px solid white;
+                         border-radius: 5px;
+                         padding: 10px 10px;
+                     }
+                     &.contact{
+                         margin-right:70px ;
+                         border: 2px solid white;
+                         border-radius: 5px;
+                         padding: 10px 10px;
+
+
+                     }
+                 }
+             }
+        }
+    }
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,56 @@
+$main-color:red;
+.modal{
+
+    width: 100%;
+    height: 100vh;
+    background:rgba(#333333,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .modal-content{
+        background: white;
+        width: 500px;
+        .modal-content-top{
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 0 5px -3px  #333333;
+            color: $main-color;
+            font-size: 30px;
+            span{
+                margin-top: 20px;
+            }
+        }
+        &-bottom{
+            padding: 30px;
+            form{
+                display: flex;
+                flex-direction: column;
+                input.username,input.password{
+                    padding: 14px;
+                    border: 1px solid #333333;
+                    margin-bottom: 14px;
+                }
+                >button{
+                    padding: 15px 0px;
+                    color: #ffffff;
+                    background: red;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+#click{
+    display: inline-block;
+    padding: 7px 14px;
+    background: gray;
+    color: white;
+}
+.main-modal{
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+}

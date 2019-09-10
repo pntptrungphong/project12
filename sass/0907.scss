@@ -1,0 +1,81 @@
+// .products{
+//     display: flex;
+//     .item{
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         flex-direction: column;
+//         animation: fadeup 0.5s forwards ;
+//         //thu tu cua item
+//         &:nth-child(1){
+//             animation-delay: 0.4s;
+//         }
+//         &:nth-child(2){
+//             animation-delay: 0.5s;
+//         }
+//         &:nth-child(3){
+//             animation-delay: 0.6s;
+//         }
+//     }
+// }
+@keyframes fadeup{
+    // from{
+    //     transform: translateY(400px);
+    // }
+    // to{
+    //     transform: translateY(0);
+    // }
+    0%{
+        transform: translateY(400px);
+    }
+    //50% tính theo % thời gian của animation thực hiện
+    50%{
+        transform: rotate(140deg);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.shapes{
+    display: flex;
+    align-items: center;
+    background-color: blueviolet;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: cornsilk;
+    margin-right: 30px;
+}
+.rectangle{
+    width: 100px;
+    height: 200px;
+    background-color: cornsilk;
+    margin-right: 30px;
+
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: cornsilk;
+    border-radius:50%; 
+    margin-right: 30px;
+
+}
+.triangle{
+    margin-right: 30px;
+    //transparent trong suốt
+    border-top: 80px solid red;
+    display: inline-block;
+    border-right: 80px solid transparent;
+    border-left:80px solid transparent;
+    border-bottom: 80px solid transparent;
+
+}
+.eclipes{
+    width: 300px;
+    height: 100px;
+    background-color: cornsilk;
+    border-radius:50%; 
+    margin-right: 30px;
+}

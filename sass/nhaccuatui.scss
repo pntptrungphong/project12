@@ -1,0 +1,733 @@
+body {
+  font-family: "NhacCuaTui", sans-serif;
+}
+.header1 {
+  width: 100%;
+  border-bottom: #dadada solid 1px;
+  position: relative;
+  z-index: 999;
+  margin-bottom: 89px;
+}
+header {
+  position: fixed;
+  display: flex;
+  width: 1200px;
+  margin: auto;
+  justify-content: space-between;
+  padding: 6px 0 7px 0;
+  background: #ffffff;
+  height: 65px;
+  .logo-mini {
+    padding: 14px;
+  }
+  .list-title {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 10px 10px;
+    opacity: 1;
+    // margin-left: -55px;
+    > li {
+      padding: 1px 16px 0 0;
+      position: relative;
+      > a {
+        font-size: 14px;
+        color: #222222;
+        line-height: 42px;
+        font-weight: 600;
+      }
+    }
+    li > .song {
+      display: none;
+      position: absolute;
+      padding: 5px 23px;
+      width: 520px;
+      top: 56px;
+      border: 1px solid #d9d9d9;
+      background: #fff;
+      box-shadow: 0 3px 8px rgba(3, 3, 3, 0.26);
+      animation: fadeUp 1s forwards;
+      li {
+        display: flex;
+        justify-content: space-between;
+        .usuk,
+        .vietnam,
+        .asia,
+        .different {
+          li {
+            transition: 1s;
+            a {
+              font-size: 15px;
+              color: #222222;
+              line-height: 42px;
+            }
+            &:first-child {
+              a {
+                font-size: 16px;
+                color: #222222;
+                line-height: 42px;
+                font-weight: 600;
+              }
+            }
+            &:hover {
+              a {
+                color: #2daaed;
+              }
+            }
+          }
+        }
+      }
+    }
+    li:hover > .song {
+      display: block;
+    }
+    li > .bxh {
+      display: none;
+      width: 122px;
+      position: absolute;
+      padding: 5px 23px;
+      top: 56px;
+      border: 1px solid #d9d9d9;
+      background: #fff;
+      box-shadow: 0 3px 8px rgba(3, 3, 3, 0.26);
+      animation: fadeUp 1s forwards;
+      li {
+        transition: 1s;
+        a {
+          font-size: 15px;
+          color: #222222;
+          line-height: 42px;
+        }
+        &:hover {
+          a {
+            color: #2daaed;
+          }
+        }
+      }
+    }
+    li:hover > .bxh {
+      display: block;
+    }
+    li > .cham {
+      position: relative;
+      &::before {
+        content: " ";
+        top: 0;
+        left: 0;
+        height: 4px;
+        width: 21px;
+        position: absolute;
+        background: url(https://stc-id.nixcdn.com/v11/images/header_new/ic_more_new.png);
+      }
+    }
+  }
+  .list-icon {
+    align-items: center;
+    display: flex;
+    padding: 10px 10px 10px 25px;
+    margin-right: -83px;
+    li {
+      position: relative;
+      float: left;
+      margin: 2px 33px 0 0;
+      a {
+        opacity: 0.7;
+        transition: 1s;
+        i {
+          font-size: 20px;
+          color: #222222;
+        }
+        .fa-crown {
+          color: yellow;
+        }
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  form {
+    display: flex;
+    align-items: center;
+    margin-right: 57px;
+    position: relative;
+    width: 280px;
+    height: 40px;
+    float: right;
+    top: 9px;
+    left: 66px;
+    input {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      color: rgba(0, 0, 0, 0.5);
+      font-size: 14px;
+      width: 240px;
+      height: 40px;
+      border: 1px solid #2f80ed;
+      padding: 0 9px;
+      &::placeholder {
+        color: rgba(0, 0, 0, 0.5);
+      }
+    }
+    button {
+      width: 40px;
+      /* border-radius: 2px; */
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      height: 40px;
+      background: #2f80ed;
+      i {
+        font-size: 27px;
+        color: white;
+      }
+    }
+  }
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+.content-left {
+  width: 70%;
+  float: left;
+  .slider1 {
+    z-index: 1;
+    background: #23262d;
+    position: relative;
+    img {
+      width: 840px;
+      height: 339px;
+    }
+    .owl-dots {
+      padding: 10px 0;
+      display: flex;
+      justify-content: center;
+      button {
+        width: 158px;
+        height: 63px;
+        transition: 1s;
+        margin: 0 10px;
+        &:nth-child(1) {
+          background: url(https://avatar-nct.nixcdn.com/slideshow/2019/08/02/d/0/1/c/1564742561614_org.jpg)
+            no-repeat center/cover;
+        }
+        &:nth-child(2) {
+          background: url(https://avatar-nct.nixcdn.com/slideshow/2019/08/10/8/9/a/c/1565442459638_org.jpg)
+            no-repeat center/cover;
+        }
+        &:nth-child(3) {
+          background: url(https://avatar-nct.nixcdn.com/slideshow/2019/08/13/8/2/d/8/1565687272121_org.jpg)
+            no-repeat center/cover;
+        }
+        &:nth-child(4) {
+          background: url(https://avatar-nct.nixcdn.com/slideshow/2019/08/15/0/d/0/4/1565843326764_org.jpg)
+            no-repeat center/cover;
+        }
+        &:nth-child(5) {
+          background: url(https://avatar-nct.nixcdn.com/slideshow/2019/07/31/3/e/9/d/1564568972582_org.jpg)
+            no-repeat center/cover;
+        }
+        &.active {
+          border: 4px solid #e74c3c;
+        }
+      }
+    }
+  }
+  .title-left {
+    display: inline-block;
+    h2 {
+      font-size: 26px;
+      font-weight: 300;
+      line-height: 36px;
+      margin: 0 0 10px 0;
+      a {
+        position: relative;
+        color: #2daaed;
+        i {
+          color: #2daaed;
+          position: absolute;
+          top: 6px;
+          right: -23px;
+        }
+      }
+    }
+  }
+  .list1 {
+    .mv {
+      display: flex;
+      .item1 {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        width: 50%;
+        &::before {
+          position: absolute;
+          top: 0;
+          left: 0;
+          content: " ";
+          height: 99%;
+          width: 100%;
+          background: #c7c7c7;
+          opacity: 0;
+          transition: 1s;
+        }
+        &:hover {
+          &::before {
+            opacity: 0.3;
+          }
+        }
+        img {
+          width: 410px;
+          height: 230px;
+        }
+        .time {
+          background: black;
+          position: absolute;
+          float: right;
+          bottom: 4px;
+          right: 11px;
+          padding: 1px 6px;
+          span {
+            color: #fff;
+            font-size: 12px;
+          }
+        }
+        .play {
+          z-index: 50;
+          position: absolute;
+          opacity: 0;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          left: 50%;
+          i {
+            padding: 20px;
+            font-size: 18px;
+            color: white;
+            border: 2px solid white;
+            border-radius: 50%;
+          }
+          transition: 1s;
+        }
+        &:hover {
+          .play {
+            opacity: 1;
+          }
+        }
+        .view-listen {
+          position: absolute;
+          background: url(https://stc-id.nixcdn.com/v11/images/bg_view_listen.png)
+            no-repeat center/cover;
+          height: 24px;
+          float: right;
+          top: 0;
+          right: 11px;
+          i {
+            color: #c7c7c7;
+            padding-left: 10px;
+            padding-right: 4px;
+            font-size: 14px;
+          }
+          span {
+            color: #c7c7c7;
+            font-size: 14px;
+          }
+        }
+      }
+      .item2 {
+        width: 50%;
+        img {
+          width: 410px;
+          height: 230px;
+        }
+      }
+    }
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      > li {
+        padding: 20px 0;
+        width: 20%;
+        display: inline-block;
+        .img {
+          cursor: pointer;
+          display: inline-block;
+          position: relative;
+          width: 152px;
+          &::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            content: " ";
+            height: 99%;
+            width: 100%;
+            background: #c7c7c7;
+            opacity: 0;
+            transition: 1s;
+          }
+          &:hover {
+            &::before {
+              opacity: 0.5;
+            }
+          }
+          a {
+            img {
+              width: 152px;
+              height: 152px;
+            }
+          }
+          .time {
+            background: black;
+            position: absolute;
+            float: right;
+            bottom: 4px;
+            right: 0px;
+            padding: 1px 6px;
+            span {
+              color: #fff;
+              font-size: 12px;
+            }
+          }
+          .play {
+            z-index: 50;
+            position: absolute;
+            opacity: 0;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            i {
+              padding: 16px;
+              font-size: 14px;
+              color: white;
+              border: 2px solid white;
+              border-radius: 50%;
+            }
+            transition: 1s;
+          }
+          &:hover {
+            .play {
+              opacity: 1;
+            }
+          }
+          .view-listen {
+            position: absolute;
+            background: url(https://stc-id.nixcdn.com/v11/images/bg_view_listen.png)
+              no-repeat center/cover;
+            height: 24px;
+            float: right;
+            top: 0;
+            right: 0;
+            i {
+              color: #c7c7c7;
+              padding-left: 10px;
+              padding-right: 4px;
+              font-size: 14px;
+            }
+            span {
+              color: #c7c7c7;
+              font-size: 14px;
+            }
+          }
+        }
+        .title-song {
+          width: 156px;
+          h3 {
+            a {
+              font-size: 13px;
+              color: black;
+              transition: 1s;
+            }
+          }
+          h4 {
+            display: flex;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            float: left;
+            width: 152px;
+            margin-bottom: 5px;
+            color: #acacac;
+            font-size: 12px;
+            a {
+              color: rgba(0, 0, 0, 0.5);
+            }
+          }
+          &:hover {
+            a {
+              color: #2daaed;
+            }
+          }
+        }
+      }
+    }
+  }
+  .list-song {
+    .list-song-left {
+      width: 50%;
+      ul {
+        li {
+          padding: 5px 0;
+          border-top: #ececec solid 1px;
+          display: flex;
+          align-items: center;
+          .img {
+            img {
+              width: 60px;
+              height: 60px;
+            }
+          }
+          .title-song{
+            margin-left: 10px;
+            .name-song{
+              margin: 10px 0 0 0;
+              h3{
+                a{
+                  font-size: 14px;
+                 color: black;
+                 font-weight: 500;
+                }
+              }
+            }
+            .author{ 
+              display: flex;
+              a{
+                font-size: 12px;
+                line-height: 26px;
+                height: 24px;
+                color: rgba(0,0,0,0.5);
+              }
+            }
+          }
+          .box-song{
+            margin-left: 92px;
+            .box1{
+              i{
+                color: rgba(0,0,0,0.5);
+                font-size: 12px;
+              }
+              span{
+                color: rgba(0,0,0,0.5);
+                font-size: 12px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@keyframes fadeUp {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.list2 {
+  .mv {
+    display: flex;
+    .item1 {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      width: 50%;
+      &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: " ";
+        height: 99%;
+        width: 100%;
+        background: #c7c7c7;
+        opacity: 0;
+        transition: 1s;
+      }
+      &:hover {
+        &::before {
+          opacity: 0.3;
+        }
+      }
+      img {
+        width: 410px;
+        height: 230px;
+      }
+      .time {
+        background: black;
+        position: absolute;
+        float: right;
+        bottom: 4px;
+        right: 11px;
+        padding: 1px 6px;
+        span {
+          color: #fff;
+          font-size: 12px;
+        }
+      }
+      .play {
+        z-index: 50;
+        position: absolute;
+        opacity: 0;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        i {
+          padding: 20px;
+          font-size: 18px;
+          color: white;
+          border: 2px solid white;
+          border-radius: 50%;
+        }
+        transition: 1s;
+      }
+      &:hover {
+        .play {
+          opacity: 1;
+        }
+      }
+      .view-listen {
+        position: absolute;
+        background: url(https://stc-id.nixcdn.com/v11/images/bg_view_listen.png)
+          no-repeat center/cover;
+        height: 24px;
+        float: right;
+        top: 0;
+        right: 11px;
+        i {
+          color: #c7c7c7;
+          padding-left: 10px;
+          padding-right: 4px;
+          font-size: 14px;
+        }
+        span {
+          color: #c7c7c7;
+          font-size: 14px;
+        }
+      }
+    }
+    .item2 {
+      width: 50%;
+      img {
+        width: 410px;
+        height: 230px;
+      }
+    }
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    > li {
+      padding: 20px 0;
+      width: 25%;
+      display: inline-block;
+      .img {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        width: 195px;
+        &::before {
+          position: absolute;
+          top: 0;
+          left: 0;
+          content: " ";
+          height: 99%;
+          width: 100%;
+          background: #c7c7c7;
+          opacity: 0;
+          transition: 1s;
+        }
+        &:hover {
+          &::before {
+            opacity: 0.5;
+          }
+        }
+        a {
+          img {
+            width: 195px;
+            height: 109px;
+          }
+        }
+        .time {
+          background: black;
+          position: absolute;
+          float: right;
+          bottom: 4px;
+          right: 0px;
+          padding: 1px 6px;
+          span {
+            color: #fff;
+            font-size: 12px;
+          }
+        }
+        .play {
+          z-index: 50;
+          position: absolute;
+          opacity: 0;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          left: 50%;
+          i {
+            padding: 16px;
+            font-size: 14px;
+            color: white;
+            border: 2px solid white;
+            border-radius: 50%;
+          }
+          transition: 1s;
+        }
+        &:hover {
+          .play {
+            opacity: 1;
+          }
+        }
+        .view-listen {
+          position: absolute;
+          background: url(https://stc-id.nixcdn.com/v11/images/bg_view_listen.png)
+            no-repeat center/cover;
+          height: 24px;
+          float: right;
+          top: 0;
+          right: 0;
+          i {
+            color: #c7c7c7;
+            padding-left: 10px;
+            padding-right: 4px;
+            font-size: 14px;
+          }
+          span {
+            color: #c7c7c7;
+            font-size: 14px;
+          }
+        }
+      }
+      .title-song {
+        width: 156px;
+        h3 {
+          a {
+            font-size: 13px;
+            color: black;
+            transition: 1s;
+          }
+        }
+        h4 {
+          display: flex;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          float: left;
+          width: 152px;
+          margin-bottom: 5px;
+          color: #acacac;
+          font-size: 12px;
+          a {
+            color: rgba(0, 0, 0, 0.5);
+          }
+        }
+        &:hover {
+          a {
+            color: #2daaed;
+          }
+        }
+      }
+    }
+  }
+}

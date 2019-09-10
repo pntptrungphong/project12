@@ -1,0 +1,173 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: blue;
+  width: 1700px; }
+
+a {
+  padding: 30px;
+  background-color: black;
+  position: relative;
+  color: white;
+  margin-right: 70px;
+  transition: 1s; }
+  a::after {
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    position: absolute;
+    background: yellowgreen;
+    transition: 4s;
+    overflow: hidden;
+    transform-origin: 0 100%;
+    transform: scaleX(0);
+    transition: transform 0.5s ease-out; }
+  a:hover::after {
+    transform: scaleX(1);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66); }
+
+.Shutter {
+  padding: 30px;
+  background-color: black;
+  position: relative;
+  color: white;
+  overflow: hidden;
+  transition: 1s;
+  margin-right: 70px; }
+  .Shutter::after {
+    z-index: 2;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    position: absolute;
+    background: yellowgreen;
+    transition: 4s;
+    transform: scaleY(0);
+    transition: transform 1s ease-out; }
+  .Shutter:hover::after {
+    transform: scaleY(2); }
+
+.Shutter-in {
+  padding: 30px;
+  background-color: black;
+  position: relative;
+  color: white;
+  overflow: hidden;
+  transition: 1s;
+  margin-right: 70px; }
+  .Shutter-in::after {
+    z-index: -2;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    position: absolute;
+    background: yellowgreen;
+    transition: 4s;
+    transform: scaleY(2);
+    transition: transform 1s ease-out; }
+  .Shutter-in:hover::after {
+    z-index: 111;
+    transform: scaleY(0); }
+
+.Shutter-in-H {
+  padding: 30px;
+  background-color: black;
+  position: relative;
+  color: white;
+  overflow: hidden;
+  transition: 1s;
+  margin-right: 70px; }
+  .Shutter-in-H::after {
+    z-index: -2;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    position: absolute;
+    background: yellowgreen;
+    transition: 4s;
+    transform: scaleX(2);
+    transition: transform 1s ease-out; }
+  .Shutter-in-H:hover::after {
+    z-index: 111;
+    transform: scaleX(0); }
+
+.Shutter-out-H {
+  padding: 30px;
+  background-color: black;
+  position: relative;
+  color: white;
+  overflow: hidden;
+  transition: 1s;
+  margin-right: 70px; }
+  .Shutter-out-H::after {
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    position: absolute;
+    background: yellowgreen;
+    transition: 4s;
+    transform: scaleX(0);
+    transition: transform 1s ease-out; }
+  .Shutter-out-H:hover::after {
+    transform: scaleX(2); }
+
+.radial-out {
+  margin-right: 70px;
+  padding: 30px;
+  background-color: black;
+  position: relative;
+  color: white;
+  overflow: hidden;
+  transition: 1s;
+  width: 159px;
+  height: 78px; }
+  .radial-out::after {
+    content: ' ';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 0;
+    width: 0;
+    position: absolute;
+    background: yellowgreen;
+    transition: 1s;
+    border-radius: 50%; }
+  .radial-out:hover::after {
+    height: 100%;
+    width: 100%;
+    transform: scale(4); }
+
+.radial-in {
+  padding: 30px;
+  background-color: black;
+  position: relative;
+  color: white;
+  overflow: hidden;
+  transition: 1s; }
+  .radial-in::after {
+    content: ' ';
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background: yellowgreen;
+    transition: 0.5s;
+    border-radius: 100%;
+    transform: scale(10); }
+  .radial-in:hover::after {
+    z-index: 2;
+    transform: scale(0); }

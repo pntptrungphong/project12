@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 200px;
+  display: block;
+}
+
+p {
+  background-color: #3d1e08;
+  color: white;
+}
+
+#news {
+  background-color: gray;
+}
+
+#news .first {
+  color: red;
+  background-color: black;
+  display: inline-block;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-bottom: 50px;
+  padding-right: 20px;
+}
+
+.news {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

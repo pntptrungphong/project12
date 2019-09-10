@@ -1,0 +1,353 @@
+header {
+  background-color: #3c8dbc;
+  display: flex;
+  //   width: 1350px;
+  //   margin: auto;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  .logo-mini {
+    display: flex;
+    position: relative;
+    .go {
+      // position: absolute;
+      display: block;
+      padding: 13px;
+      width: 60px;
+      background-color: #367fa9;
+      text-align: center;
+      a {
+        color: #fff;
+        // padding: 15px;
+        font-size: 18px;
+      }
+    }
+
+    .logo {
+      transition: 1s;
+      padding: 16px 15px;
+
+      &:hover {
+        background-color: #367fa9;
+      }
+
+      a {
+        text-align: center;
+        i {
+          color: #fff;
+        }
+      }
+    }
+  }
+  nav {
+    ul {
+      display: flex;
+      li {
+        a {
+          color: #fff;
+          padding: 16px 15px;
+          i {
+            font-size: 14px;
+          }
+          transition: 1s;
+          &:hover {
+            background-color: #367fa9;
+          }
+        }
+      }
+    }
+  }
+}
+.container {
+  display: flex;
+  height: 100%;
+  background: #ecf0f5;
+}
+.content-left1 {
+  background-color: #222d32;
+  width: 60px;
+  display: block;
+  > ul {
+    position: relative;
+    > li {
+      padding: 13px;
+      text-align: center;
+      transition: 1s;
+      a {
+        i {
+          font-size: 18px;
+          color: #8aa4af;
+        }
+      }
+      &:hover {
+        opacity: 1;
+        background: #1e282c;
+      }
+    }
+  }
+  ul li .film {
+    padding: 7px 0;
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    background-color: #222d32;
+    > li {
+      padding: 14px 0 0 0;
+      width: 150px;
+      a {
+        color: #8aa4af;
+      }
+    }
+    transition: 2s;
+    .select {
+      background: #2c3b41;
+      margin-top: 14px;
+      text-align: left;
+      padding: 5px 10px;
+      li {
+        padding: 8px 0;
+        transition: 1s;
+        a {
+          color: #8aa4af;
+          i {
+            color: #8aa4af;
+            font-size: 15px;
+          }
+        }
+        &:hover {
+          a {
+            color: #fff;
+            i {
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+  ul li .tv {
+    display: none;
+    position: absolute;
+    top: 46px;
+    left: 60px;
+    background-color: #222d32;
+    > li {
+      padding: 14px 0px;
+      width: 118px;
+      a {
+        color: #8aa4af;
+      }
+    }
+    transition: 2s;
+  }
+  ul li .get {
+    display: none;
+    position: absolute;
+    top: 92px;
+    left: 60px;
+    background-color: #222d32;
+    > li {
+      padding: 14px 0px;
+      width: 118px;
+      a {
+        color: #8aa4af;
+      }
+    }
+    transition: 2s;
+  }
+  ul li .fshare {
+    display: none;
+    position: absolute;
+    top: 138px;
+    left: 60px;
+    background-color: #222d32;
+    > li {
+      padding: 14px 0px;
+      width: 181px;
+      a {
+        color: #8aa4af;
+      }
+    }
+    transition: 2s;
+  }
+  ul li .improve {
+    display: none;
+    position: absolute;
+    top: 184px;
+    left: 60px;
+    background-color: #222d32;
+    > li {
+      padding: 14px 0px;
+      width: 181px;
+      a {
+        color: #8aa4af;
+      }
+    }
+    transition: 2s;
+  }
+  ul li:hover > .film {
+    display: block;
+  }
+  ul li:hover > .tv {
+    display: block;
+  }
+  ul li:hover > .get {
+    display: block;
+  }
+  ul li:hover > .fshare {
+    display: block;
+  }
+  ul li:hover > .improve {
+    display: block;
+  }
+}
+.content-left2 {
+  background-color: #222d32;
+  width: 60px;
+  display: none;
+  ul {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    li {
+      padding: 13px 0 13px 0;
+      text-align: left;
+      transition: 1s;
+      a {
+        color: white;
+        i {
+          font-size: 18px;
+          color: #8aa4af;
+        }
+      }
+      &:hover {
+        opacity: 1;
+        background: #1e282c;
+      }
+    }
+  }
+  ul li > .select {
+    width: 200px;
+    background: #2c3b41;
+    margin-top: 14px;
+    text-align: left;
+    padding: 5px 10px;
+    li {
+      padding: 8px 0;
+      transition: 1s;
+      a {
+        color: #8aa4af;
+        i {
+          color: #8aa4af;
+          font-size: 15px;
+        }
+      }
+      &:hover {
+        a {
+          color: #fff;
+          i {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+.content-right {
+  overflow: hidden;
+  width: 90%;
+  margin: auto;
+  margin-top: 2%;
+  form {
+    display: flex;
+    width: 663px;
+    margin: auto;
+    margin-bottom: 30px;
+    input {
+      height: 46px;
+      padding: 10px 16px;
+      font-size: 18px;
+      line-height: 1.3333333;
+      border-radius: 6px;
+      width: 90%;
+
+    }
+    button {
+      height: 46px;
+      padding: 10px 16px;
+      font-size: 18px;
+      line-height: 1.3333333;
+      border-radius: 6px;
+      background-color: #31b0d5;
+      width: 116px;
+      transition: 1s;
+      color: white;
+      &:hover {
+        background-color: #00acd6;
+      }
+    }
+  }
+  .list-film{
+    .list-title{
+      ul{
+        display: flex;
+        background: white;
+        li{
+          padding: 14px 32px;
+          a{
+            color: #444;
+            line-height: 1.42857143;
+          }
+        }
+        .active{
+          border-top: 3px solid #3c8dbc;
+          border-bottom: 1px solid white;
+          border-right: 1px solid #f4f4f4;
+          border-left: 1px solid #f4f4f4;
+          position: relative;
+    top: 1px;
+    z-index: 100;
+        }
+      }
+    }
+    .list-film-1,.list-film-2,.list-film-3,.list-film-4{
+      background: #fff;
+      border-top: 1px solid #f4f4f4;
+      .list1{
+        display: flex;
+        .item1{
+          display: inline-block;
+          padding: 15px;
+          .img1{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            border: 1px solid #f4f4f4;
+            width: 100%;
+            img{
+              width: 160px;
+              height: 204px;
+            }
+            a{
+              color: #72afd2;
+              padding: 14px 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.list-film-1{
+  display: block;
+}
+.list-film-2{
+  display: none;
+}
+.list-film-3{
+  display: none;
+}
+.list-film-4{
+  display: none;
+}

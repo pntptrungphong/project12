@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+input::-webkit-input-placeholder {
+  color: #9b9797;
+}
+
+input:-ms-input-placeholder {
+  color: #9b9797;
+}
+
+input::-ms-input-placeholder {
+  color: #9b9797;
+}
+
+input::placeholder {
+  color: #9b9797;
+}
+
+.icon {
+  font-size: 16px;
+  color: #eee;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=reset.css.map */

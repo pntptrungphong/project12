@@ -1,0 +1,16 @@
+nav{
+    margin-bottom: 3000px;
+    ul{
+        display: flex;
+        li{
+            margin-right: 20px;
+            a{
+                font-size: 20px;
+            }
+        }
+    }
+}
+#contact,#about{
+    height: 100vh;
+    border: 1px solid red;
+}

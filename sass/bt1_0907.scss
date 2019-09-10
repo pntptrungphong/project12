@@ -1,0 +1,500 @@
+header {
+  width: 1365px;
+  margin: auto;
+  .header {
+    .search {
+      border-bottom: 1px solid #e8e8e8;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 1200px;
+      margin: auto;
+      padding-top: 7.5px;
+      padding-bottom: 7.5px;
+      font-size: 13.5px;
+      line-height: 36.4px;
+      .input {
+        input {
+          padding: 8px;
+        }
+      }
+      .shopping {
+        display: flex;
+        .cart {
+          margin-right: 30px;
+          display: flex;
+          a {
+            color: #333;
+            font-size: 13.5px;
+            line-height: 36.4px;
+            transition: 0.9s;
+            &:hover {
+              opacity: 0.7;
+            }
+          }
+          .icon-cart {
+            margin-right: 15px;
+            a {
+              i {
+                width: 20px;
+                height: 20px;
+                vertical-align: middle;
+                fill: currentColor;
+                color: #333;
+                font-size: 20px;
+                transition: 0.9s;
+                &:hover {
+                  opacity: 0.7;
+                }
+              }
+            }
+          }
+        }
+        .check-out {
+          a {
+            color: #333;
+            font-size: 13.5px;
+            line-height: 36.4px;
+            transition: 0.9s;
+            &:hover {
+              opacity: 0.7;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.simple {
+  width: 1200px;
+  margin: auto;
+  padding-top: 30px;
+  a {
+    img {
+      transition: 0.9s;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}
+.content1 {
+  img {
+    width: 303px;
+    height: 303px;
+  }
+}
+.container {
+  padding-top: 30px;
+  width: 1200px;
+  margin: auto;
+  .content {
+    display: flex;
+    .mega-menu {
+      width: 20%;
+      ul {
+        li {
+          border-top: 1px solid #e8e8e8;
+          padding: 12px 0;
+          &:first-child {
+            a {
+              color: #333;
+              font-weight: 700;
+            }
+          }
+          &:last-child {
+            border-bottom: 1px solid #e8e8e8;
+          }
+          a {
+            color: #333;
+            font-size: 18px;
+            transition: 0.9s;
+            &:hover {
+              opacity: 0.7;
+            }
+          }
+        }
+      }
+    }
+    .mega-img {
+      width: 80%;
+      padding-left: 30px;
+      h2 {
+        font-weight: 400;
+      }
+      .content1 {
+        margin-top: 40px;
+        display: flex;
+        .pic1 {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          animation: fadeUp 0.8s forwards;
+          a {
+            margin-bottom: 10px;
+            color: #333;
+            transition: 0.9s;
+            &:hover {
+              opacity: 0.7;
+            }
+          }
+        }
+      }
+      .content2 {
+        margin-top: 40px;
+        display: flex;
+        img {
+          width: 303px;
+          height: 303px;
+        }
+        .pic1 {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          animation: fadeUp 0.8s linear 0.5s forwards;
+          a {
+            margin-bottom: 10px;
+            color: #333;
+            transition: 0.9s;
+            width: 99%;
+            text-align: center;
+            &:hover {
+              opacity: 0.7;
+            }
+          }
+        }
+        .pic2 {
+          position: relative;
+          .sale {
+            position: absolute;
+            top: 10px;
+            right: 25px;
+            height: 55px;
+            width: 55px;
+            padding: 15px;
+            border-radius: 50%;
+            background-color: #c8493f;
+            text-align: center;
+            animation: fadeUp 0.8s forwards;
+            span {
+              font-size: 15px;
+              color: #fff;
+            }
+          }
+          .pic2-sale {
+            .pic {
+              display: flex;
+              align-items: center;
+              flex-direction: column;
+              a {
+                margin-bottom: 10px;
+                color: #333;
+                transition: 0.9s;
+                &:hover {
+                  opacity: 0.7;
+                }
+              }
+              span {
+                display: flex;
+                color: #c8493f;
+                h4 {
+                  margin-left: 4px;
+                  color: #333;
+                  text-decoration: line-through;
+                }
+              }
+            }
+            animation: fadeUp 0.8s forwards;
+          }
+        }
+        .pic3 {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          animation: fadeUp 0.8s forwards;
+          a {
+            margin-bottom: 10px;
+            color: #333;
+            transition: 0.9s;
+            &:hover {
+              opacity: 0.7;
+            }
+          }
+        }
+      }
+      .content3 {
+        margin-top: 40px;
+        display: flex;
+        .accessories {
+          padding: 0 15px;
+          margin-right: 35px;
+          h2 {
+            color: white;
+          }
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          width: 216px;
+          height: 216px;
+          background: url(https://cdn.shopify.com/s/files/1/0037/5472/products/Weekender-Black1_360x.jpg?v=1509388970)
+            no-repeat center/cover;
+          &::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            content: " ";
+            background: #333;
+            opacity: 0.4;
+            transition: 0.5s;
+          }
+          &:hover {
+            &::after {
+              opacity: 0.2;
+            }
+          }
+        }
+        .demin {
+          margin-right: 35px;
+          padding: 0 15px;
+          h2 {
+            color: white;
+          }
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          width: 216px;
+          height: 216px;
+          background: url(https://cdn.shopify.com/s/files/1/0037/5472/products/TRENCH-SKINNY-JEANS---BLEACH-WASHF_360x.jpg?v=1509388913)
+            no-repeat center/cover;
+          &::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            content: " ";
+            background: #333;
+            opacity: 0.4;
+            transition: 0.5s;
+          }
+          &:hover {
+            &::after {
+              opacity: 0.2;
+            }
+          }
+        }
+        .footwear {
+          margin-right: 35px;
+          padding: 0 15px;
+          h2 {
+            color: white;
+          }
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          width: 216px;
+          height: 216px;
+          background: url(https://cdn.shopify.com/s/files/1/0037/5472/products/SGT-569B_01_360x.jpg?v=1509388951)
+            no-repeat center/cover;
+          &::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            content: " ";
+            background: #333;
+            opacity: 0.4;
+            transition: 0.5s;
+          }
+          &:hover {
+            &::after {
+              opacity: 0.2;
+            }
+          }
+        }
+        .outerwear {
+          padding: 0 15px;
+          h2 {
+            color: white;
+          }
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          width: 216px;
+          height: 216px;
+          background: url(https://cdn.shopify.com/s/files/1/0037/5472/products/SGT-616_METTLEDYARN_BGy_01_360x.jpg?v=1509388894)
+            no-repeat center/cover;
+          &::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            content: " ";
+            background: #333;
+            opacity: 0.4;
+            transition: 0.5s;
+          }
+          &:hover {
+            &::after {
+              opacity: 0.2;
+            }
+          }
+        }
+      }
+      .content4 {
+        margin-top: 40px;
+        display: flex;
+        .pants {
+          padding: 0 15px;
+          margin-right: 35px;
+          h2 {
+            color: white;
+          }
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          width: 216px;
+          height: 216px;
+          background: url(https://cdn.shopify.com/s/files/1/0037/5472/products/SGT-608_CHINO_N_01_360x.jpg?v=1509388902)
+            no-repeat center/cover;
+          &::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            content: " ";
+            background: #333;
+            opacity: 0.4;
+            transition: 0.5s;
+          }
+          &:hover {
+            &::after {
+              opacity: 0.2;
+            }
+          }
+        }
+        .shirts {
+          margin-right: 35px;
+          padding: 0 15px;
+          h2 {
+            color: white;
+          }
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          width: 216px;
+          height: 216px;
+          background: url(https://cdn.shopify.com/s/files/1/0037/5472/products/SGT-613_DOBBY_B_01_360x.jpg?v=1509388897)
+            no-repeat center/cover;
+          &::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            content: " ";
+            background: #333;
+            opacity: 0.4;
+            transition: 0.5s;
+          }
+          &:hover {
+            &::after {
+              opacity: 0.2;
+            }
+          }
+        }
+        .t-shirts {
+          margin-right: 35px;
+          padding: 0 15px;
+          h2 {
+            color: white;
+          }
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          width: 216px;
+          height: 216px;
+          background: url(https://cdn.shopify.com/s/files/1/0037/5472/products/SGT-600_APPLIQUE_N_01_360x.jpg?v=1509388905)
+            no-repeat center/cover;
+          &::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            content: " ";
+            background: #333;
+            opacity: 0.4;
+            transition: 0.5s;
+          }
+          &:hover {
+            &::after {
+              opacity: 0.2;
+            }
+          }
+        }
+        .short {
+          padding: 0 15px;
+          h2 {
+            color: white;
+          }
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          width: 216px;
+          height: 216px;
+          background: url(https://cdn.shopify.com/s/files/1/0037/5472/products/SGT-740B_CAMO_01_360x.jpg?v=1509388701)
+            no-repeat center/cover;
+          &::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            content: " ";
+            background: #333;
+            opacity: 0.4;
+            transition: 0.5s;
+          }
+          &:hover {
+            &::after {
+              opacity: 0.2;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@keyframes fadeUp {
+  from {
+    transform: translateY(300px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.title2{
+  margin: 20px 0;
+}

@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.background1 {
+  width: 50%;
+  height: 90px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed; }
+  .background1 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white; }
+    .background1 a:hover {
+      transition: 1s;
+      color: red; }
+  .background1 img {
+    padding-left: 40px; }
+
+.background3 {
+  width: 50%;
+  height: 90px;
+  background-color: black;
+  margin-left: 683px; }
+  .background3 .background2 {
+    width: 600px;
+    height: 90px;
+    background-color: gray;
+    margin-left: 683px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .background3 .background2 a {
+      font-size: 20px;
+      text-decoration: none;
+      color: white; }
+      .background3 .background2 a:hover {
+        transition: 1s;
+        color: red; }

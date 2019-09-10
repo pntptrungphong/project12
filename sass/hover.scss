@@ -1,0 +1,220 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+    width: 1700px;
+}
+
+a{
+    padding: 30px;
+    background-color: black;
+    position: relative;
+    color: white;
+    margin-right: 70px;
+    transition: 1s;
+    &::after{
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        content: ' ';
+        position: absolute;
+        background: yellowgreen;
+        transition:4s;
+        overflow: hidden;
+        transform-origin:0 100% ;
+        transform: scaleX(0);
+        transition: transform 0.5s ease-out;
+    }
+    &:hover{
+        &::after{
+            transform: scaleX(1);
+            transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+        }
+    }
+}
+.Shutter{
+    padding: 30px;
+    background-color: black;
+    position: relative;
+    color: white;
+    overflow: hidden;
+    transition: 1s;
+    margin-right: 70px;
+    &::after{
+        z-index: 2;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        content: ' ';
+        position: absolute;
+        background: yellowgreen;
+        transition:4s;
+      
+        // transform-origin:100% 100% ;
+        transform: scaleY(0);
+        transition: transform 1s ease-out;
+    }
+    &:hover{
+        &::after{
+            transform: scaleY(2);
+            // transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+        }
+    }
+}
+.Shutter-in{
+    padding: 30px;
+    background-color: black;
+    position: relative;
+    color: white;
+    overflow: hidden;
+    transition: 1s;
+    margin-right: 70px;
+    &::after{
+        z-index: -2;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        content: ' ';
+        position: absolute;
+        background: yellowgreen;
+        transition:4s;
+      
+        // transform-origin:100% 100% ;
+        transform: scaleY(2);
+        transition: transform 1s ease-out;
+    }
+    &:hover{
+        &::after{
+            z-index: 111;
+            transform: scaleY(0);
+            // transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+        }
+    }
+}
+.Shutter-in-H{
+    padding: 30px;
+    background-color: black;
+    position: relative;
+    color: white;
+    overflow: hidden;
+    transition: 1s;
+    margin-right: 70px;
+    &::after{
+        z-index: -2;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        content: ' ';
+        position: absolute;
+        background: yellowgreen;
+        transition:4s;
+      
+        // transform-origin:100% 100% ;
+        transform: scaleX(2);
+        transition: transform 1s ease-out;
+    }
+    &:hover{
+        &::after{
+            z-index: 111;
+            transform: scaleX(0);
+            // transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+        }
+    }
+}
+.Shutter-out-H{
+    padding: 30px;
+    background-color: black;
+    position: relative;
+    color: white;
+    overflow: hidden;
+    transition: 1s;
+    margin-right: 70px;
+    &::after{
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        content: ' ';
+        position: absolute;
+        background: yellowgreen;
+        transition:4s;
+      
+        // transform-origin:100% 100% ;
+        transform: scaleX(0);
+        transition: transform 1s ease-out;
+    }
+    &:hover{
+        &::after{
+            transform: scaleX(2);
+            // transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+        }
+    }
+}
+.radial-out{
+    margin-right: 70px;
+     padding: 30px;
+    background-color: black;
+    position: relative;
+    color: white;
+    overflow: hidden;
+    transition: 1s;
+    width: 159px;
+    height: 78px;
+    &::after{
+        content: ' ';
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        height: 0;
+        width: 0;
+        position: absolute;
+        background: yellowgreen;
+        transition:1s;
+        border-radius: 50%;
+    }
+    &:hover{
+        &::after{
+            height: 100%;
+            width: 100%;
+            transform: scale(4);
+        }
+    }
+}
+.radial-in{
+    padding: 30px;
+    background-color: black;
+    position: relative;
+    color: white;
+    overflow: hidden;
+    transition: 1s;
+    &::after{
+        content: ' ';
+        z-index: -1;
+        top:0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        // height: 100%;
+        // width: 100%;
+        position: absolute;
+        background: yellowgreen;
+        transition:0.5s;
+        border-radius: 100%;
+        transform: scale(10);
+    }
+    &:hover{
+        &::after{
+            z-index: 2;
+            transform: scale(0);
+        }
+    }
+}
+
+
+

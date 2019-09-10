@@ -1,0 +1,3 @@
+function getInfo() {
+    alert(" hello");
+}

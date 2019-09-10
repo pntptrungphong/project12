@@ -1,0 +1,12 @@
+nav {
+  margin-bottom: 3000px; }
+  nav ul {
+    display: flex; }
+    nav ul li {
+      margin-right: 20px; }
+      nav ul li a {
+        font-size: 20px; }
+
+#contact, #about {
+  height: 100vh;
+  border: 1px solid red; }

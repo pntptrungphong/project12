@@ -1,0 +1,112 @@
+// phan container chi can dung nhu v, gioi han noi dung
+// .container{
+//     width: 1200px;
+//     margin: auto;
+// }
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header.header1
+    {
+        //margin-top: 250px;
+ .container1{
+      
+            width: 1200px;
+            margin: auto;
+            display: flex;
+            //cho 2 ben ra giua
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+        background-color: #212529;
+        .logo1{
+            a{
+                padding: 0 20px;
+                text-decoration: none;
+                color: white;
+                font-family: 'Anton', sans-serif;
+                &.time{
+                    margin-left: 500px;
+                }
+            }
+        }
+    }
+header.header2{
+    background-color:#f85a40;
+    .container2{
+        width: 1200px;
+        margin: auto;
+        display: flex;
+        //cho 2 ben ra giua
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+        .logo2{
+            a{
+                color: white;
+                text-decoration: none;
+                margin-left: 20px;
+                font-size: 30px;
+            }
+        }
+        .navbar{
+            ul{
+                display: flex;
+                list-style: none;
+                margin-right: 60px; 
+                li{
+                    a{
+                        padding: 0 20px;
+                        text-decoration: none;
+                        color: white;
+                        font-family: 'Crimson Text', serif;
+                        &.last{
+                            border: 2px solid white;
+                            background: white;
+                            color: orangered;
+                            padding: 5px;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+body{
+    width: 100hv;
+    justify-content: center;
+     align-items: center;
+    background-color: black;
+
+}
+.slider{
+    // background-image: url(../img//tCft1ma.jpg);
+    //background-size:kich thuoc cua hinh...cover bao phủ chiều width 
+    //contain gốc bao nhiêu chứa tấm hình bấy nhiêu
+    // background-size: cover;
+    // background-size: contain;
+    //mac định background-image lặp lại hình khi full height 650px
+    //để không lặp lại xài background-repeat: no-repeat
+    // background-repeat: no-repeat;
+    //gộp chung lại
+    background: red, url(../img/tCft1ma.jpg) no-repeat center/cover;
+    // background-image: url(https://picsum.photos/id/652/190/190);
+    height: 650px;
+    font-size: 40px;
+    // điều chỉnh vị trí
+    background-position: center;
+    h1{
+        color: white;
+        width:65%;
+        text-align: center;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

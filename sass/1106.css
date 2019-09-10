@@ -1,0 +1,96 @@
+.card {
+  -webkit-box-shadow: 10px 10px 50px 30px;
+          box-shadow: 10px 10px 50px 30px;
+  width: 500px;
+  background-color: aqua;
+  border: 2px dashed;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card h2 {
+  margin: 20px 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+  display: inline-block;
+}
+
+.card h2:hover {
+  background-color: darkred;
+  display: inline-block;
+  color: deeppink;
+}
+
+.card p {
+  margin-bottom: 40px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.card p:hover {
+  color: darkblue;
+  padding-top: 40px;
+}
+
+.card .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card .button a {
+  text-decoration: none;
+  color: blueviolet;
+  -webkit-transition: 1s;
+  transition: 1s;
+  border-radius: 4px;
+}
+
+.card .button a.prev {
+  background: coral;
+  color: chartreuse;
+}
+
+.card .button a.prev:hover {
+  background-color: indigo;
+  color: green;
+}
+
+.card .button a.next {
+  color: darkred;
+  border: 2px solid chocolate;
+}
+
+.card .button a.next:hover {
+  background-color: black;
+  color: green;
+}
+
+.card .button a:hover {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: darkorange;
+}
+/*# sourceMappingURL=1106.css.map */

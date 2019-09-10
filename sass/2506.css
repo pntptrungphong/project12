@@ -1,0 +1,3585 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #eeeeee;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-1::after {
+  width: 1%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-2::after {
+  width: 2%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-3::after {
+  width: 3%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-4::after {
+  width: 4%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-5::after {
+  width: 5%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-6::after {
+  width: 6%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-7::after {
+  width: 7%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-8::after {
+  width: 8%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-9::after {
+  width: 9%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-10::after {
+  width: 10%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-11::after {
+  width: 11%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-12::after {
+  width: 12%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-13::after {
+  width: 13%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-14::after {
+  width: 14%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-15::after {
+  width: 15%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-16::after {
+  width: 16%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-17::after {
+  width: 17%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-18::after {
+  width: 18%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-19::after {
+  width: 19%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-20::after {
+  width: 20%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-21::after {
+  width: 21%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-22::after {
+  width: 22%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-23::after {
+  width: 23%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-24::after {
+  width: 24%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-25::after {
+  width: 25%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-26::after {
+  width: 26%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-27::after {
+  width: 27%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-28::after {
+  width: 28%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-29::after {
+  width: 29%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-30::after {
+  width: 30%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-31::after {
+  width: 31%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-32::after {
+  width: 32%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-33::after {
+  width: 33%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-34::after {
+  width: 34%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-35::after {
+  width: 35%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-36::after {
+  width: 36%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-37::after {
+  width: 37%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-38::after {
+  width: 38%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-39::after {
+  width: 39%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-40::after {
+  width: 40%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-41::after {
+  width: 41%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-42::after {
+  width: 42%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-43::after {
+  width: 43%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-44::after {
+  width: 44%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-45::after {
+  width: 45%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-46::after {
+  width: 46%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-47::after {
+  width: 47%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-48::after {
+  width: 48%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-49::after {
+  width: 49%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-50::after {
+  width: 50%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-51::after {
+  width: 51%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-52::after {
+  width: 52%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-53::after {
+  width: 53%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-54::after {
+  width: 54%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-55::after {
+  width: 55%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-56::after {
+  width: 56%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-57::after {
+  width: 57%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-58::after {
+  width: 58%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-59::after {
+  width: 59%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-60::after {
+  width: 60%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-61::after {
+  width: 61%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-62::after {
+  width: 62%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-63::after {
+  width: 63%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-64::after {
+  width: 64%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-65::after {
+  width: 65%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-66::after {
+  width: 66%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-67::after {
+  width: 67%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-68::after {
+  width: 68%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-69::after {
+  width: 69%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-70::after {
+  width: 70%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-71::after {
+  width: 71%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-72::after {
+  width: 72%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-73::after {
+  width: 73%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-74::after {
+  width: 74%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-75::after {
+  width: 75%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-76::after {
+  width: 76%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-77::after {
+  width: 77%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-78::after {
+  width: 78%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-79::after {
+  width: 79%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-80::after {
+  width: 80%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-81::after {
+  width: 81%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-82::after {
+  width: 82%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-83::after {
+  width: 83%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-84::after {
+  width: 84%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-85::after {
+  width: 85%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-86::after {
+  width: 86%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-87::after {
+  width: 87%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-88::after {
+  width: 88%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-89::after {
+  width: 89%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-90::after {
+  width: 90%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-91::after {
+  width: 91%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-92::after {
+  width: 92%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-93::after {
+  width: 93%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-94::after {
+  width: 94%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-95::after {
+  width: 95%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-96::after {
+  width: 96%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-97::after {
+  width: 97%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-98::after {
+  width: 98%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar {
+  width: 500px;
+  background: #333333;
+  height: 10px;
+  position: relative;
+}
+
+.bars .bar::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+  height: 100%;
+}
+
+.bars .bar-99::after {
+  width: 99%;
+}
+
+.bars .bar-blue::after {
+  background: blue;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+
+.bars .bar-red::after {
+  background: red;
+}
+/*# sourceMappingURL=2506.css.map */

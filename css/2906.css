@@ -1,0 +1,64 @@
+.container {
+  width: 1365px;
+  margin: auto; }
+
+.bg {
+  background: url(https://colorlib.com/preview/theme/newspaper/img/bg-img/bg1.jpg) no-repeat center/cover;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  position: relative; }
+  .bg::after {
+    z-index: 2;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(2, 3, 28, 0.9); }
+  .bg .bg-img {
+    z-index: 3;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .bg .bg-img .bg-img1 {
+      position: relative;
+      margin: 0 30px;
+      overflow: hidden; }
+      .bg .bg-img .bg-img1::after {
+        content: ' ';
+        top: 0;
+        left: 0;
+        width: 0%;
+        transition: 1s;
+        height: 100%;
+        position: absolute;
+        background: #1c1c1c; }
+      .bg .bg-img .bg-img1:hover::after {
+        width: 100%; }
+      .bg .bg-img .bg-img1 img {
+        width: 360px;
+        height: 250px; }
+      .bg .bg-img .bg-img1 img {
+        transition: all 1s; }
+      .bg .bg-img .bg-img1 img:hover {
+        transform: scale(1.2, 1.2); }
+      .bg .bg-img .bg-img1 .icon1 {
+        z-index: 999;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        transition: all 1s; }
+        .bg .bg-img .bg-img1 .icon1 a i:hover {
+          background: #1c1c1c; }
+      .bg .bg-img .bg-img1 .icon2 {
+        position: absolute;
+        transform: translateY(-50%);
+        top: 50%;
+        left: 38%;
+        transition: all 1s; }
+        .bg .bg-img .bg-img1 .icon2 a i:hover {
+          background: #1c1c1c; }
